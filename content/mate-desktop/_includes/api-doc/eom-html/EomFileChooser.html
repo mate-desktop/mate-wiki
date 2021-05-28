@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EomFileChooser: Eye of MATE Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="Eye of MATE Reference Manual">
+<link rel="up" href="ch01.html" title="User Interface">
+<link rel="prev" href="eom-eom-list-store.html" title="EomListStore">
+<link rel="next" href="eom-eom-thumb-nav.html" title="EomThumbNav">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#EomFileChooser.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#EomFileChooser.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#EomFileChooser.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="eom-eom-list-store.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="eom-eom-thumb-nav.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="EomFileChooser"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="EomFileChooser.top_of_page"></a>EomFileChooser</span></h2>
+<p>EomFileChooser</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="EomFileChooser.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="EomFileChooser.html#eom-file-chooser-new" title="eom_file_chooser_new ()">eom_file_chooser_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GdkPixbufFormat</span> *
+</td>
+<td class="function_name">
+<a class="link" href="EomFileChooser.html#eom-file-chooser-get-format" title="eom_file_chooser_get_format ()">eom_file_chooser_get_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="EomFileChooser.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="EomFileChooser.html#EomFileChooser-struct" title="struct EomFileChooser">EomFileChooser</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="EomFileChooser.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="../gobject/gobject-The-Base-Object-Type.html#GObject-struct">GObject</a>
+    <span class="lineart">╰──</span> <a href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> <a href="../gtk3/GtkWidget.html#GtkWidget-struct">GtkWidget</a>
+            <span class="lineart">╰──</span> <a href="../gtk3/GtkContainer.html#GtkContainer-struct">GtkContainer</a>
+                <span class="lineart">╰──</span> <a href="../gtk3/GtkBin.html#GtkBin-struct">GtkBin</a>
+                    <span class="lineart">╰──</span> <a href="../gtk3/GtkWindow.html#GtkWindow-struct">GtkWindow</a>
+                        <span class="lineart">╰──</span> <a href="../gtk3/GtkDialog.html#GtkDialog-struct">GtkDialog</a>
+                            <span class="lineart">╰──</span> <a href="../gtk3/GtkFileChooserDialog.html#GtkFileChooserDialog-struct">GtkFileChooserDialog</a>
+                                <span class="lineart">╰──</span> EomFileChooser
+</pre>
+</div>
+<div class="refsect1">
+<a name="EomFileChooser.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+EomFileChooser implements
+ AtkImplementorIface,  <a href="../gtk3/GtkBuildable.html#GtkBuildable-struct">GtkBuildable</a> and  <a href="../gtk3/GtkFileChooser.html#GtkFileChooser-struct">GtkFileChooser</a>.</p>
+</div>
+<div class="refsect1">
+<a name="EomFileChooser.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="EomFileChooser.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="eom-file-chooser-new"></a><h3>eom_file_chooser_new ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_file_chooser_new (<em class="parameter"><code><a href="../gtk3/GtkFileChooser.html#GtkFileChooserAction"><span class="type">GtkFileChooserAction</span></a> action</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-file-chooser-get-format"></a><h3>eom_file_chooser_get_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">GdkPixbufFormat</span> *
+eom_file_chooser_get_format (<em class="parameter"><code><a class="link" href="EomFileChooser.html" title="EomFileChooser"><span class="type">EomFileChooser</span></a> *chooser</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="EomFileChooser.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="EomFileChooser-struct"></a><h3>struct EomFileChooser</h3>
+<pre class="programlisting">struct EomFileChooser;</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

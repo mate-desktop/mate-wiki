@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EomApplication: Eye of MATE Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="Eye of MATE Reference Manual">
+<link rel="up" href="ch04.html" title="Application and configuration">
+<link rel="prev" href="EomPreferencesDialog.html" title="EomPreferencesDialog">
+<link rel="next" href="eom-eom-session.html" title="eom-session">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#eom-eom-application.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#eom-eom-application.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#eom-eom-application.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="EomPreferencesDialog.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="eom-eom-session.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="eom-eom-application"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="eom-eom-application.top_of_page"></a>EomApplication</span></h2>
+<p>EomApplication</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="eom-eom-application.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="eom-eom-application.html#EomApplication"><span class="returnvalue">EomApplication</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-get-instance" title="eom_application_get_instance ()">eom_application_get_instance</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-open-window" title="eom_application_open_window ()">eom_application_open_window</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-open-uri-list" title="eom_application_open_uri_list ()">eom_application_open_uri_list</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-open-file-list" title="eom_application_open_file_list ()">eom_application_open_file_list</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-open-uris" title="eom_application_open_uris ()">eom_application_open_uris</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">EggToolbarsModel</span> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-get-toolbars-model" title="eom_application_get_toolbars_model ()">eom_application_get_toolbars_model</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-save-toolbars-model" title="eom_application_save_toolbars_model ()">eom_application_save_toolbars_model</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-application.html#eom-application-reset-toolbars-model" title="eom_application_reset_toolbars_model ()">eom_application_reset_toolbars_model</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="EomApplication"></a><div class="refsect1">
+<a name="eom-eom-application.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="eom-eom-application.html#EOM-APP:CAPS" title="EOM_APP">EOM_APP</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="eom-eom-application.html#EomApplication-struct" title="struct EomApplication">EomApplication</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-application.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="../gobject/gobject-The-Base-Object-Type.html#GObject-struct">GObject</a>
+    <span class="lineart">╰──</span> <a href="../gio/GApplication.html#GApplication-struct">GApplication</a>
+        <span class="lineart">╰──</span> <a href="../gtk3/GtkApplication.html#GtkApplication-struct">GtkApplication</a>
+            <span class="lineart">╰──</span> EomApplication
+</pre>
+</div>
+<div class="refsect1">
+<a name="eom-eom-application.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+EomApplication implements
+ <a href="../gio/GActionGroup.html#GActionGroup-struct">GActionGroup</a> and  <a href="../gio/GActionMap.html#GActionMap-struct">GActionMap</a>.</p>
+</div>
+<div class="refsect1">
+<a name="eom-eom-application.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="eom-eom-application.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="eom-application-get-instance"></a><h3>eom_application_get_instance ()</h3>
+<pre class="programlisting"><a class="link" href="eom-eom-application.html#EomApplication"><span class="returnvalue">EomApplication</span></a> *
+eom_application_get_instance (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Returns a singleton instance of <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> currently running.
+If not running yet, it will create one.</p>
+<div class="refsect3">
+<a name="eom-application-get-instance.returns"></a><h4>Returns</h4>
+<p>a running <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-open-window"></a><h3>eom_application_open_window ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+eom_application_open_window (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *application</code></em>,
+                             <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> timestamp</code></em>,
+                             <em class="parameter"><code><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> flags</code></em>,
+                             <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Opens and presents an empty <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> to the user. If there is
+an empty window already open, this will be used. Otherwise, a
+new one will be instantiated.</p>
+<div class="refsect3">
+<a name="eom-application-open-window.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>application</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>The timestamp of the user interaction which triggered this call
+(see <a href="../gtk3/GtkWindow.html#gtk-window-present-with-time"><code class="function">gtk_window_present_with_time()</code></a>).</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>A set of <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> influencing a new windows' state.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for a <a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>, or NULL to ignore errors.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-application-open-window.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>application</code></em>
+is invalid, <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> otherwise</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-open-uri-list"></a><h3>eom_application_open_uri_list ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+eom_application_open_uri_list (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *application</code></em>,
+                               <em class="parameter"><code><a href="../glib/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *uri_list</code></em>,
+                               <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> timestamp</code></em>,
+                               <em class="parameter"><code><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> flags</code></em>,
+                               <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Opens a list of images, from a list of URIs. See
+<a class="link" href="eom-eom-application.html#eom-application-open-file-list" title="eom_application_open_file_list ()"><code class="function">eom_application_open_file_list()</code></a> for details.</p>
+<div class="refsect3">
+<a name="eom-application-open-uri-list.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>application</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>uri_list</p></td>
+<td class="parameter_description"><p>A list of URIs. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> utf8]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>The timestamp of the user interaction which triggered this call
+(see <a href="../gtk3/GtkWindow.html#gtk-window-present-with-time"><code class="function">gtk_window_present_with_time()</code></a>).</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>A set of <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> influencing a new windows' state.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for a <a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>, or NULL to ignore errors.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-application-open-uri-list.returns"></a><h4>Returns</h4>
+<p> Currently always <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-open-file-list"></a><h3>eom_application_open_file_list ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+eom_application_open_file_list (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *application</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *file_list</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> timestamp</code></em>,
+                                <em class="parameter"><code><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> flags</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Opens a list of files in a <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>. If an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> displaying the first
+image in the list is already open, this will be used. Otherwise, an empty
+<a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> is used, either already existing or newly created.</p>
+<div class="refsect3">
+<a name="eom-application-open-file-list.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>application</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>file_list</p></td>
+<td class="parameter_description"><p>A list of <a href="../gio/GFile.html#GFile-struct"><span class="type">GFile</span></a>s. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> GFile]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>The timestamp of the user interaction which triggered this call
+(see <a href="../gtk3/GtkWindow.html#gtk-window-present-with-time"><code class="function">gtk_window_present_with_time()</code></a>).</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>A set of <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> influencing a new windows' state.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for a <a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>, or NULL to ignore errors.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-application-open-file-list.returns"></a><h4>Returns</h4>
+<p> Currently always <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-open-uris"></a><h3>eom_application_open_uris ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+eom_application_open_uris (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *application</code></em>,
+                           <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **uris</code></em>,
+                           <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> timestamp</code></em>,
+                           <em class="parameter"><code><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> flags</code></em>,
+                           <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Opens a list of images, from a list of URI strings. See
+<a class="link" href="eom-eom-application.html#eom-application-open-file-list" title="eom_application_open_file_list ()"><code class="function">eom_application_open_file_list()</code></a> for details.</p>
+<div class="refsect3">
+<a name="eom-application-open-uris.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>application</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>uris</p></td>
+<td class="parameter_description"><p>A <a href="../glib/glib-Doubly-Linked-Lists.html#GList"><span class="type">GList</span></a> of URI strings.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>The timestamp of the user interaction which triggered this call
+(see <a href="../gtk3/GtkWindow.html#gtk-window-present-with-time"><code class="function">gtk_window_present_with_time()</code></a>).</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>A set of <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> influencing a new windows' state.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for a <a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>, or NULL to ignore errors.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-application-open-uris.returns"></a><h4>Returns</h4>
+<p> Currently always <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-get-toolbars-model"></a><h3>eom_application_get_toolbars_model ()</h3>
+<pre class="programlisting"><span class="returnvalue">EggToolbarsModel</span> *
+eom_application_get_toolbars_model (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *application</code></em>);</pre>
+<p>Retrieves the <span class="type">EggToolbarsModel</span> for the toolbar in <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>.</p>
+<div class="refsect3">
+<a name="eom-application-get-toolbars-model.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>application</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-application-get-toolbars-model.returns"></a><h4>Returns</h4>
+<p>An <span class="type">EggToolbarsModel</span>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-save-toolbars-model"></a><h3>eom_application_save_toolbars_model ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_application_save_toolbars_model (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *application</code></em>);</pre>
+<p>Causes the saving of the model of the toolbar in <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> to a file.</p>
+<div class="refsect3">
+<a name="eom-application-save-toolbars-model.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>application</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-application-reset-toolbars-model"></a><h3>eom_application_reset_toolbars_model ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_application_reset_toolbars_model (<em class="parameter"><code><a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a> *app</code></em>);</pre>
+<p>Restores the toolbars model to the defaults.</p>
+<div class="refsect3">
+<a name="eom-application-reset-toolbars-model.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-application.html#EomApplication"><span class="type">EomApplication</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-application.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="EOM-APP:CAPS"></a><h3>EOM_APP</h3>
+<pre class="programlisting">#define EOM_APP				(eom_application_get_instance ())
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomApplication-struct"></a><h3>struct EomApplication</h3>
+<pre class="programlisting">struct EomApplication;</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

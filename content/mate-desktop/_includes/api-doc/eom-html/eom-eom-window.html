@@ -1,0 +1,838 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EomWindow: Eye of MATE Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="Eye of MATE Reference Manual">
+<link rel="up" href="ch01.html" title="User Interface">
+<link rel="prev" href="EomScrollView.html" title="EomScrollView">
+<link rel="next" href="EomStatusbar.html" title="EomStatusbar">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#eom-eom-window.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#eom-eom-window.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#eom-eom-window.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#eom-eom-window.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#eom-eom-window.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="EomScrollView.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="EomStatusbar.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="eom-eom-window"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="eom-eom-window.top_of_page"></a>EomWindow</span></h2>
+<p>EomWindow</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="eom-eom-window.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-new" title="eom_window_new ()">eom_window_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="returnvalue">EomWindowMode</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-mode" title="eom_window_get_mode ()">eom_window_get_mode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-set-mode" title="eom_window_set_mode ()">eom_window_set_mode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkUIManager.html#GtkUIManager-struct"><span class="returnvalue">GtkUIManager</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-ui-manager" title="eom_window_get_ui_manager ()">eom_window_get_ui_manager</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="eom-eom-list-store.html#EomListStore"><span class="returnvalue">EomListStore</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-store" title="eom_window_get_store ()">eom_window_get_store</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-view" title="eom_window_get_view ()">eom_window_get_view</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-sidebar" title="eom_window_get_sidebar ()">eom_window_get_sidebar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-thumb-view" title="eom_window_get_thumb_view ()">eom_window_get_thumb_view</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-thumb-nav" title="eom_window_get_thumb_nav ()">eom_window_get_thumb_nav</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-statusbar" title="eom_window_get_statusbar ()">eom_window_get_statusbar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="eom-eom-image.html#EomImage"><span class="returnvalue">EomImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-get-image" title="eom_window_get_image ()">eom_window_get_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-open-file-list" title="eom_window_open_file_list ()">eom_window_open_file_list</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-is-empty" title="eom_window_is_empty ()">eom_window_is_empty</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-window.html#eom-window-reload-image" title="eom_window_reload_image ()">eom_window_reload_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">EomWindowCollectionPos</span></td>
+<td class="property_name"><a class="link" href="eom-eom-window.html#EomWindow--collection-position" title="The “collection-position” property">collection-position</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="eom-eom-window.html#EomWindow--collection-resizable" title="The “collection-resizable” property">collection-resizable</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a></td>
+<td class="property_name"><a class="link" href="eom-eom-window.html#EomWindow--startup-flags" title="The “startup-flags” property">startup-flags</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signal_proto_type">
+<col width="300px" class="signal_proto_name">
+<col width="200px" class="signal_proto_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="eom-eom-window.html#EomWindow-prepared" title="The “prepared” signal">prepared</a></td>
+<td class="signal_flags"><a href="../gobject/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<a name="EomWindow"></a><div class="refsect1">
+<a name="eom-eom-window.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="eom-eom-window.html#EOM-WINDOW-ERROR:CAPS" title="EOM_WINDOW_ERROR">EOM_WINDOW_ERROR</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode">EomWindowMode</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="eom-eom-window.html#EomWindowError" title="enum EomWindowError">EomWindowError</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags">EomStartupFlags</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="eom-eom-window.html#EomWindow-struct" title="struct EomWindow">EomWindow</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="../gobject/gobject-The-Base-Object-Type.html#GObject-struct">GObject</a>
+    <span class="lineart">╰──</span> <a href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> <a href="../gtk3/GtkWidget.html#GtkWidget-struct">GtkWidget</a>
+            <span class="lineart">╰──</span> <a href="../gtk3/GtkContainer.html#GtkContainer-struct">GtkContainer</a>
+                <span class="lineart">╰──</span> <a href="../gtk3/GtkBin.html#GtkBin-struct">GtkBin</a>
+                    <span class="lineart">╰──</span> <a href="../gtk3/GtkWindow.html#GtkWindow-struct">GtkWindow</a>
+                        <span class="lineart">╰──</span> <a href="../gtk3/GtkApplicationWindow.html#GtkApplicationWindow-struct">GtkApplicationWindow</a>
+                            <span class="lineart">╰──</span> EomWindow
+</pre>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+EomWindow implements
+ AtkImplementorIface,  <a href="../gtk3/GtkBuildable.html#GtkBuildable-struct">GtkBuildable</a>,  <a href="../gio/GActionGroup.html#GActionGroup-struct">GActionGroup</a> and  <a href="../gio/GActionMap.html#GActionMap-struct">GActionMap</a>.</p>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="eom-window-new"></a><h3>eom_window_new ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_window_new (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> flags</code></em>);</pre>
+<p>Creates a new and empty <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>. Use <em class="parameter"><code>flags</code></em>
+ to indicate
+if the window should be initialized fullscreen, in slideshow mode,
+and/or without the thumbnails collection visible. See <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a>.</p>
+<div class="refsect3">
+<a name="eom-window-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>the initialization parameters for the new window.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-new.returns"></a><h4>Returns</h4>
+<p> a newly created <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-mode"></a><h3>eom_window_get_mode ()</h3>
+<pre class="programlisting"><a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="returnvalue">EomWindowMode</span></a>
+eom_window_get_mode (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the mode of <em class="parameter"><code>window</code></em>
+. See <a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="type">EomWindowMode</span></a> for details.</p>
+<div class="refsect3">
+<a name="eom-window-get-mode.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-mode.returns"></a><h4>Returns</h4>
+<p> An <a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="type">EomWindowMode</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-set-mode"></a><h3>eom_window_set_mode ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_window_set_mode (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>,
+                     <em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="type">EomWindowMode</span></a> mode</code></em>);</pre>
+<p>Changes the mode of <em class="parameter"><code>window</code></em>
+ to normal, fullscreen, or slideshow.
+See <a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="type">EomWindowMode</span></a> for details.</p>
+<div class="refsect3">
+<a name="eom-window-set-mode.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>mode</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindowMode" title="enum EomWindowMode"><span class="type">EomWindowMode</span></a> value.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-ui-manager"></a><h3>eom_window_get_ui_manager ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkUIManager.html#GtkUIManager-struct"><span class="returnvalue">GtkUIManager</span></a> *
+eom_window_get_ui_manager (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the <a href="../gtk3/GtkUIManager.html#GtkUIManager-struct"><span class="type">GtkUIManager</span></a> that describes the UI of <em class="parameter"><code>window</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-window-get-ui-manager.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-ui-manager.returns"></a><h4>Returns</h4>
+<p>A <a href="../gtk3/GtkUIManager.html#GtkUIManager-struct"><span class="type">GtkUIManager</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-store"></a><h3>eom_window_get_store ()</h3>
+<pre class="programlisting"><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="returnvalue">EomListStore</span></a> *
+eom_window_get_store (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> that contains the images in the collection
+of <em class="parameter"><code>window</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-window-get-store.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-store.returns"></a><h4>Returns</h4>
+<p>an <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-view"></a><h3>eom_window_get_view ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_window_get_view (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the <a class="link" href="EomScrollView.html" title="EomScrollView"><span class="type">EomScrollView</span></a> in the window.</p>
+<div class="refsect3">
+<a name="eom-window-get-view.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-view.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="EomScrollView.html" title="EomScrollView"><span class="type">EomScrollView</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-sidebar"></a><h3>eom_window_get_sidebar ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_window_get_sidebar (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the sidebar widget of <em class="parameter"><code>window</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-window-get-sidebar.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-sidebar.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="EomSidebar.html" title="EomSidebar"><span class="type">EomSidebar</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-thumb-view"></a><h3>eom_window_get_thumb_view ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_window_get_thumb_view (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the thumbnails view in <em class="parameter"><code>window</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-window-get-thumb-view.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-thumb-view.returns"></a><h4>Returns</h4>
+<p>an <a class="link" href="eom-eom-thumb-view.html#EomThumbView"><span class="type">EomThumbView</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-thumb-nav"></a><h3>eom_window_get_thumb_nav ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_window_get_thumb_nav (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the thumbnails navigation pane in <em class="parameter"><code>window</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-window-get-thumb-nav.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-thumb-nav.returns"></a><h4>Returns</h4>
+<p>an <a class="link" href="eom-eom-thumb-nav.html#EomThumbNav"><span class="type">EomThumbNav</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-statusbar"></a><h3>eom_window_get_statusbar ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkWidget.html#GtkWidget-struct"><span class="returnvalue">GtkWidget</span></a> *
+eom_window_get_statusbar (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the statusbar in <em class="parameter"><code>window</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-window-get-statusbar.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-statusbar.returns"></a><h4>Returns</h4>
+<p>a <span class="type">EomStatusBar</span>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-get-image"></a><h3>eom_window_get_image ()</h3>
+<pre class="programlisting"><a class="link" href="eom-eom-image.html#EomImage"><span class="returnvalue">EomImage</span></a> *
+eom_window_get_image (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Gets the image currently displayed in <em class="parameter"><code>window</code></em>
+ or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if
+no image is being displayed.</p>
+<div class="refsect3">
+<a name="eom-window-get-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-get-image.returns"></a><h4>Returns</h4>
+<p>an <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20none"><span class="acronym">transfer none</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-open-file-list"></a><h3>eom_window_open_file_list ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_window_open_file_list (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>,
+                           <em class="parameter"><code><a href="../glib/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *file_list</code></em>);</pre>
+<p>Opens a list of files, adding them to the collection in <em class="parameter"><code>window</code></em>
+.
+Files will be checked to be readable and later filtered according
+with <a class="link" href="eom-eom-list-store.html#eom-list-store-add-files" title="eom_list_store_add_files ()"><code class="function">eom_list_store_add_files()</code></a>.</p>
+<div class="refsect3">
+<a name="eom-window-open-file-list.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>file_list</p></td>
+<td class="parameter_description"><p>A <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of <a href="../gio/GFile.html#GFile-struct"><span class="type">GFile</span></a>'s. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> GFile]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-is-empty"></a><h3>eom_window_is_empty ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+eom_window_is_empty (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+<p>Tells whether <em class="parameter"><code>window</code></em>
+ is currently empty or not.</p>
+<div class="refsect3">
+<a name="eom-window-is-empty.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>an <a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-window-is-empty.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if <em class="parameter"><code>window</code></em>
+has no images, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-window-reload-image"></a><h3>eom_window_reload_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_window_reload_image (<em class="parameter"><code><a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="EOM-WINDOW-ERROR:CAPS"></a><h3>EOM_WINDOW_ERROR</h3>
+<pre class="programlisting">#define EOM_WINDOW_ERROR           (eom_window_error_quark ())
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomWindowMode"></a><h3>enum EomWindowMode</h3>
+<div class="refsect3">
+<a name="EomWindowMode.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-MODE-UNKNOWN:CAPS"></a>EOM_WINDOW_MODE_UNKNOWN</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-MODE-NORMAL:CAPS"></a>EOM_WINDOW_MODE_NORMAL</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-MODE-FULLSCREEN:CAPS"></a>EOM_WINDOW_MODE_FULLSCREEN</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-MODE-SLIDESHOW:CAPS"></a>EOM_WINDOW_MODE_SLIDESHOW</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomWindowError"></a><h3>enum EomWindowError</h3>
+<div class="refsect3">
+<a name="EomWindowError.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-CONTROL-NOT-FOUND:CAPS"></a>EOM_WINDOW_ERROR_CONTROL_NOT_FOUND</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-UI-NOT-FOUND:CAPS"></a>EOM_WINDOW_ERROR_UI_NOT_FOUND</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-NO-PERSIST-FILE-INTERFACE:CAPS"></a>EOM_WINDOW_ERROR_NO_PERSIST_FILE_INTERFACE</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-IO:CAPS"></a>EOM_WINDOW_ERROR_IO</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-TRASH-NOT-FOUND:CAPS"></a>EOM_WINDOW_ERROR_TRASH_NOT_FOUND</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-GENERIC:CAPS"></a>EOM_WINDOW_ERROR_GENERIC</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-WINDOW-ERROR-UNKNOWN:CAPS"></a>EOM_WINDOW_ERROR_UNKNOWN</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomStartupFlags"></a><h3>enum EomStartupFlags</h3>
+<div class="refsect3">
+<a name="EomStartupFlags.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-STARTUP-FULLSCREEN:CAPS"></a>EOM_STARTUP_FULLSCREEN</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-STARTUP-SLIDE-SHOW:CAPS"></a>EOM_STARTUP_SLIDE_SHOW</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-STARTUP-DISABLE-COLLECTION:CAPS"></a>EOM_STARTUP_DISABLE_COLLECTION</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomWindow-struct"></a><h3>struct EomWindow</h3>
+<pre class="programlisting">struct EomWindow;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="EomWindow--collection-position"></a><h3>The <code class="literal">“collection-position”</code> property</h3>
+<pre class="programlisting">  “collection-position”      <span class="type">EomWindowCollectionPos</span></pre>
+<p>Determines the position of the image collection in the window
+relative to the image.</p>
+<p>Owner: EomWindow</p>
+<p>Flags: Read / Write</p>
+<p>Default value: EOM_WINDOW_COLLECTION_POS_BOTTOM</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomWindow--collection-resizable"></a><h3>The <code class="literal">“collection-resizable”</code> property</h3>
+<pre class="programlisting">  “collection-resizable”     <a href="../glib/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>If <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> the collection will be resizable by the user otherwise it will be
+in single column/row mode.</p>
+<p>Owner: EomWindow</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomWindow--startup-flags"></a><h3>The <code class="literal">“startup-flags”</code> property</h3>
+<pre class="programlisting">  “startup-flags”            <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a></pre>
+<p>A bitwise OR of <a class="link" href="eom-eom-window.html#EomStartupFlags" title="enum EomStartupFlags"><span class="type">EomStartupFlags</span></a> elements, indicating how the window
+should behave upon creation.</p>
+<p>Owner: EomWindow</p>
+<p>Flags: Read / Write / Construct Only</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-window.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="EomWindow-prepared"></a><h3>The <code class="literal">“prepared”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="eom-eom-window.html#EomWindow"><span class="type">EomWindow</span></a> *window,
+               <a href="../glib/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>   user_data)</pre>
+<p>The <a class="link" href="eom-eom-window.html#EomWindow-prepared" title="The “prepared” signal"><span class="type">“prepared”</span></a> signal is emitted when the <em class="parameter"><code>window</code></em>
+ is ready
+to be shown.</p>
+<div class="refsect3">
+<a name="EomWindow-prepared.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p>the object which received the signal.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="../gobject/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

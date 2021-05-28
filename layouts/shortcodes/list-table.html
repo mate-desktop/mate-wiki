@@ -1,0 +1,29 @@
+<!--taken from: https://randomgeekery.org/post/2020/06/csv-and-data-tables-in-hugo/-->
+
+{{ $caption := .Get "caption" }}
+{{ $useHeaderRow := .Get "header" }}
+{{ $rows := split (trim .Inner "\n") "\n\n" }}
+
+<table>
+  {{ with $caption }}
+    <caption>{{ . }}</caption>
+  {{ end }}
+  {{ if $useHeaderRow }}
+    {{ $headerRow := index $rows 0 }}
+    {{ $rows = after 1 $rows }}
+    <tr>
+      {{ range (split $headerRow "\n") }} <th>{{ . | markdownify }}</th> {{ end }}
+    </tr>
+  {{ end }}
+  {{ range $rows }}
+    <tr>
+      {{ range (split . "\n") }}
+        {{ if (findRE "^\\d+$" .) }}
+          <td class="numeric">{{ . }}</td>
+        {{ else }}
+          <td>{{ . | markdownify }}</td>
+        {{ end }}
+      {{ end }}
+    </tr>
+  {{ end }}
+</table>
