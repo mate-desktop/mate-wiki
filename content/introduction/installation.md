@@ -58,7 +58,9 @@ Now can type `startx`.
 {{< hint info >}}
 If you have authorization problems (e.g. when mounting disks), try adding `dbus-launch` after `ck-launch-session`.
 
-{{< /hint >}} {{< /tab >}}
+{{< /hint >}}
+
+{{< /tab >}}
 
 {{< tab "Fedora" >}}
 Install the MATE Desktop Environment with

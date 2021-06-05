@@ -7,7 +7,7 @@ pluralizeListTitles = false
 enableEmoji = true
 
 # Geekdoc required configuration
-pygmentsUseClasses = true
+pygmentsUseClasses = false #  Due to Geekdoc this should be true
 pygmentsCodeFences = true
 disablePathToLower = true
 
@@ -18,6 +18,18 @@ disablePathToLower = true
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 9
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 4
 
 [params]
   # (Optional, default none) Set source repository location. Used for 'Edit this page' links.
