@@ -8,7 +8,9 @@ weight: -20
 <span class="badge-placeholder">[![GitHub contributors](https://img.shields.io/github/contributors/mate-desktop/mate-calc)](https://github.com/mate-desktop/mate-calc/graphs/contributors)</span>
 <span class="badge-placeholder">[![License](https://img.shields.io/github/license/mate-desktop/mate-calc)](https://github.com/mate-desktop/mate-calc/blob/main/LICENSE)</span>
 
-[Source Code](https://github.com/mate-desktop/mate-calc) | [Bug Tracker](https://github.com/mate-desktop/mate-calc/issues) | [Dependencies](https://github.com/mate-desktop/mate-calc/blob/master/.build.yml) | [Help](/mate-desktop/_includes/help/mate-calc-html/index.html)
+[Source Code](https://github.com/mate-desktop/mate-calc) | [Bug Tracker](https://github.com/mate-desktop/mate-calc/issues) | [Dependencies](https://github.com/mate-desktop/mate-calc/blob/master/.build.yml) | [Help](</mate-desktop/_includes/help/mate-calc-html/index.html>)
+
+
 
 ![](https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-calculator.png)
 

@@ -3,6 +3,8 @@ title: C Programming/GObject
 weight: -10
 ---
 
+Although written in C, most MATE applications are heavily based on Object Oriented Programming principles.
+
 Since the C Programming-Language was not created with Object Oriented Programming in mind, it has no explicit support for classes, inheritance, polymorphism and other OO Concepts. Neither does it have its own Virtual Table, which is found in object-oriented languages such C++, Java and C#. Therefore, it might not be as easy to implement an object-oriented programming paradigm using only C's language features and standard library. However, it can be done using structures which contain both function pointers as well as data, for example, or by using third-party libraries.
 
 There are many third-party libraries designed to add support for object-oriented programming in C. The most general-purpose and widely used among these is the GObject System, which is part of Glib. The GObject System comes with its own virtual table. To create an object in C using the GObject system, it has to be sub-classed from the GObject struct.
@@ -119,7 +121,7 @@ struct _DerivedObject
      BaseObject parent_instance;
 };
 ```
-
+-----
 
 Source: https://en.wikibooks.org/wiki/C_Programming/GObject
 

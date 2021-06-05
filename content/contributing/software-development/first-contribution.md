@@ -34,11 +34,7 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 
 ## Create a branch
 
-Change to the repository directory on your computer (if you are not already there):
-
-```
-cd first-contributions
-```
+Change to the repository directory on your computer (if you are not already there).
 
 Now create a branch using the `git checkout` command:
 
@@ -49,7 +45,7 @@ git checkout -b your-new-branch-name
 For example:
 
 ```
-git checkout -b faster-factorization
+git checkout -b better-factorization
 ```
 
 ## Make some changes and commit those changes

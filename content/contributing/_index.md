@@ -1,4 +1,4 @@
 ---
-title: Tutorials
+title: Contributing
 weight: -10
 ---

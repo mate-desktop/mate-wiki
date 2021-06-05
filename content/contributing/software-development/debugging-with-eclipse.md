@@ -3,18 +3,11 @@ title: Debugging with Eclipse
 weight: -10
 ---
 
+This page details the generic process for debugging the MATE desktop environment with Eclipse IDE.
+
 {{< toc >}}
 
-## How to debug MATE components with Eclipse IDE
-
-This page details the generic process for debugging the MATE desktop environment with Eclipse IDE.
-The key points of this page are as follows:
-
-- Setting up the development environment
-- Enabling the debug of a MATE component
-- Debugging a MATE component
-
-### Setting up the development environment
+## Setting up the development environment
 
 The installation of the development environment can be done anywhere, on this page we will install it on user home folder.
 
@@ -36,10 +29,10 @@ $ ./eclipse/plugins/org.eclipse.cdt.debug.application_1.1.400.201910171407/scrip
 To start the debugger, just run the command below:
 
 ```
-$ ~/cdtdebugger/cdtdebug.sh 
+$ ~/cdtdebugger/cdtdebug.sh
 ```
 
-### Enabling the debug of a MATE component
+## Enabling the debug of a MATE component
 
 The generic way to enable debug is to set the debugging flag and disable optimizations on the configuration process, which is performed before the make.
 
@@ -66,11 +59,11 @@ TIP: Before performing the second step, all build dependencies must be installed
 $ sudo dnf builddep caja
 ```
 
-### Debugging a MATE component
+## Debugging a MATE component
 
 This is without a doubt the key point as it may vary depending on the component you want to debug. There are two possible cases. Debug an application that is running or debug an application by launching it.
 
-#### To debug an application that is running
+### To debug an application that is running
 Run the command below:
 ```
 $ ~/cdtdebugger/cdtdebug.sh -a PID
@@ -102,7 +95,7 @@ $ ssh -Y user@host
 $ ~/cdtdebugger/cdtdebug.sh -a $(pgrep marco)
 ```
 
-#### To debug an application by launching it
+### To debug an application by launching it
 Run the command below:
 ```
 $ ~/cdtdebugger/cdtdebug.sh -e EXEC ARGS

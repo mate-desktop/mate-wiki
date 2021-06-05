@@ -3,14 +3,14 @@ title: Building and Installing
 weight: -10
 ---
 
-Often it is not enough to build the MATE applications from source. To work properly they need to be installed (i.e. they can not be executed with `./my-program`), because the installation process ensures that all the needed files are copied to the right places.
+To run the newest version of a MATE project, often it is not enough to build it from source (i.e. it can not be executed with `./my-program`). To work properly it need to be installed, because the installation process ensures that all the needed files are copied to the right places.
 
 {{< toc >}}
 
 
 ## Building
 
-First make sure you have all dependencies installed:
+First make sure you have all dependencies of the package installed:
 
 {{< tabs >}}
 {{< tab "Debian/Ubuntu/Linux Mint" >}}
@@ -18,6 +18,7 @@ First make sure you have all dependencies installed:
 ```
 $ sudo apt build-dep <package-name>
 ```
+
 {{< /tab >}}
 {{< tab "Fedora" >}}
 ```
@@ -26,9 +27,7 @@ $ sudo dnf builddep <package-name>
 {{< /tab >}}
 {{< /tabs >}}
 
-All MATE applications are built in the same way.
-
-Simple build procedure:
+All MATE applications are built in the same way:
 
 ```
 $ git submodule update --init --recursive   # Init Git submodules
@@ -45,5 +44,14 @@ After building the package you may install it:
 ```
 [ Become root if necessary ]
 $ make install                              # Installation
+```
+
+## Uninstall
+
+To uninstall just do:
+
+```
+[ Become root if necessary ]
+$ make uninstall
 ```
 

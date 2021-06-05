@@ -1,0 +1,18 @@
+{{ $id := .Get 0 }}
+
+{{- with $id -}}
+<span class="badge-placeholder">
+<p><a href="https://travis-ci.org/github/mate-desktop/{{ . }} "><img src="https://travis-ci.org/mate-desktop/{{ . }}.svg?branch=master" alt="Build Status"></a></p>
+</span>
+<span class="badge-placeholder">
+<p><a href="https://github.com/mate-desktop/mate-desktop/releases/latest"><img src="https://img.shields.io/github/v/release/mate-desktop/{{ . }}" alt="GitHub release"></a></p>
+</span>
+<span class="badge-placeholder">
+<p><a href="https://github.com/mate-desktop/{{ . }}/graphs/contributors"><img src="https://img.shields.io/github/contributors/mate-desktop/{{ . }}" alt="GitHub contributors"></a></p>
+</span>
+<span class="badge-placeholder">
+<p><a href="https://github.com/mate-desktop/{{ . }}/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mate-desktop/{{ . }}" alt="License"></a></p>
+</span>
+<p>
+<a href="https://github.com/mate-desktop/{{ . }}">Source Code</a> | <a href="https://github.com/mate-desktop/{{ . }}/issues">Bug Tracker</a> | <a href="https://github.com/mate-desktop/{{ . }}/blob/master/.build.yml">Dependencies</a>
+{{- end -}}

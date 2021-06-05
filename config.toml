@@ -1,5 +1,5 @@
 baseURL = "https://mbkma.github.io/"
-title = "MATEdocs"
+title = "MATEwiki"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
