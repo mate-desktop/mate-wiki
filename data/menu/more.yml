@@ -1,0 +1,10 @@
+---
+more:
+  - name: Website
+    ref: "https://mate-desktop.org/"
+    external: true
+    icon: "gdoc_link"
+  - name: "View Source"
+    ref: "https://github.com/mate-desktop"
+    external: true
+    icon: "gdoc_github"
