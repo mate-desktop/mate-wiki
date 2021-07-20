@@ -3,7 +3,7 @@ name: on pr
 on:
   pull_request:
     branches:
-      - source
+      - master
 
 jobs:
   deploy:

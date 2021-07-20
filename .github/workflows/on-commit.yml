@@ -3,7 +3,7 @@ name: on commit
 on:
   push:
     branches:
-      - source
+      - master
 
 jobs:
   deploy:
