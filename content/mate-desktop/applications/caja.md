@@ -23,7 +23,7 @@ like CD/DVD/BD and USB drives.
 
     <--->
 
-[![](/mate-desktop/applications/images/caja-window.png)](/mate-desktop/applications/images/caja-window.png)
+[![](../images/caja-window.png)](../images/caja-window.png)
 
 {{< /columns >}}
 

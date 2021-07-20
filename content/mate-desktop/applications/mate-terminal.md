@@ -18,7 +18,7 @@ Mate Terminal is the official terminal emulator for the MATE Desktop.
 
     <--->
 
-[![](/mate-desktop/applications/images/mate-terminal-window.png)](/mate-desktop/applications/images/mate-terminal-window.png)
+[![](../images/mate-terminal-window.png)](../images/mate-terminal-window.png)
 
 {{< /columns >}}
 

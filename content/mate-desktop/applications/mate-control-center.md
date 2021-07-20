@@ -22,7 +22,7 @@ by clicking on them. It also has a search entry to find panels by searching keyw
 
     <--->
 
-[![](/mate-desktop/applications/images/mate-control-center-window.png)](/mate-desktop/applications/images/mate-control-center-window.png)
+[![](../images/mate-control-center-window.png)](../images/mate-control-center-window.png)
 
 {{< /columns >}}
 

@@ -22,7 +22,7 @@ copying  text to the clipboard, hypertext navigation, and table-of-contents book
 
     <--->
 
-[![](/mate-desktop/applications/images/atril-window.png)](/mate-desktop/applications/images/atril-window.png)
+[![](../images/atril-window.png)](../images/atril-window.png)
 
 {{< /columns >}}
 

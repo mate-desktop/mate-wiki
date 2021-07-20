@@ -8,7 +8,7 @@ weight: -20
 <span class="badge-placeholder">[![GitHub contributors](https://img.shields.io/github/contributors/mate-desktop/eom)](https://github.com/mate-desktop/eom/graphs/contributors)</span>
 <span class="badge-placeholder">[![License](https://img.shields.io/github/license/mate-desktop/eom)](https://github.com/mate-desktop/eom/blob/main/LICENSE)</span>
 
-[Source Code](https://github.com/mate-desktop/eom) | [Bug Tracker](https://github.com/mate-desktop/eom/issues) | [Dependencies](https://github.com/mate-desktop/eom/blob/master/.build.yml) | [API Documentation](/mate-desktop/_includes/api-doc/eom-html/index.html)
+[Source Code](https://github.com/mate-desktop/eom) | [Bug Tracker](https://github.com/mate-desktop/eom/issues) | [Dependencies](https://github.com/mate-desktop/eom/blob/master/.build.yml) | [API Documentation](../../_includes/api-doc/eom-html/index.html)
 
 ![](https://raw.githubusercontent.com/mate-desktop/eom/master/data/icons/scalable/apps/eom.svg)
 
@@ -20,7 +20,7 @@ Eye  of MATE features a flexible plugin system which can be used to dynamically 
 
     <--->
 
-[![](/mate-desktop/applications/images/eom-window.png)](/mate-desktop/applications/images/eom-window.png)
+[![test](../images/eom-window.png)](../images/eom-window.png)
 
 {{< /columns >}}
 
