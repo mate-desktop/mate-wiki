@@ -1,11 +1,11 @@
 ## MATE Wiki
 
-This is the repository that holds the source files for the MATE Wiki.
+This is the repository that holds the source files for the MATE Wiki: https://mate-desktop.github.io/mate-wiki-new/
 
 The files in the *main* branch are used by Hugo, a static site generator, to generate the html files that go to the *gh-pages* branch.
 
 How do the files from the *main* branch go to the *gh-pages* branch?
-This is handled by Github Actions. The details are located in .github/workflows/gh-pages.yml.
+This is handled by Github Actions. The details are located in .github/workflows/.
 
 Everything that exists in the *gh-pages* branch is automatically published using Github Pages. Thus the *gh-pages* branch should never be edited directly, as it gets overwritten by every push to the *master* branch.
 
