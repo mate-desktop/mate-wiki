@@ -1,6 +1,6 @@
 ## MATE Wiki
 
-This is the repository that holds the source files for the MATE Wiki: https://mate-desktop.github.io/mate-wiki-new/
+This repository holds the source files for the MATE Wiki: https://wiki.mate-desktop.org/
 
 The files in the *main* branch are used by Hugo, a static site generator, to generate the html files that go to the *gh-pages* branch.
 
