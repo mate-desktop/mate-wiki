@@ -13,7 +13,7 @@ Wayland Support
 Meson Support
 
 atril
-:black_square_button: not started yet
+:white_check_mark: finished
 :black_square_button: not started yet
 
 caja
@@ -21,7 +21,7 @@ caja
 :black_square_button: not started yet
 
 engrampa
-:black_square_button: not started yet
+:white_check_mark: finished
 :black_square_button: not started yet
 
 eom
@@ -30,14 +30,14 @@ eom
 
 mate-calc
 :white_check_mark: finished
-:clock230: [in progress](https://github.com/mate-desktop/mate-calc/pull/37)
+:white_check_mark: finished
 
 mate-control-center
 :black_square_button: not started yet
 :black_square_button: not started yet
 
 mate-system-monitor
-:clock230: [in progress](https://github.com/mate-desktop/mate-system-monitor/pull/198)
+:white_check_mark: finished
 :black_square_button: not started yet
 
 mate-terminal
@@ -45,7 +45,7 @@ mate-terminal
 :white_check_mark: finished
 
 mozo
-:black_square_button: not started yet
+:white_check_mark: finished
 :black_square_button: not started yet
 
 pluma
