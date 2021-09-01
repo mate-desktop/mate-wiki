@@ -1,6 +1,6 @@
 ---
 <!--title: Welcome to the documentation-->
-title: MATE 公式文書 Wiki へようこそ
+title: MATE Wiki の公式文書へようこそ
 
 geekdocAlign: center
 geekdocAnchor: false
@@ -21,7 +21,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 {{< columns >}}
 
 <!--### Traditional Yet Modern-->
-### 伝統的でも最新の機能
+### 伝統的でも最新機能
 
 <!--Support for modern technologies while preserving a traditional desktop experience.-->
 従来のデスクトップ体験を維持しながらも、一方では最新の技術もサポートしています。
@@ -37,7 +37,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 <--->
 
 <!--### Easy Customization-->
-### カスタマイズが簡単
+### カスタマイズが容易
 
 <!--Do not hesitate exploring endless options and tweaking every little detail of the Desktop.-->
 無限に存在するオプションを探求し、デスクトップの細部を最適化するのに遠慮はいりません。
@@ -47,7 +47,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 {{< columns >}}
 
 <!--### Sane Defaults-->
-## ごく普通に使えます
+## とても普通に使えます
 
 <!--Easy and perfectly usable out of the box, even for beginners.-->
 初心者の方でも、製品を箱から出すような感覚で簡単にお使いいただけます。
@@ -63,7 +63,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 <--->
 
 <!--### Easy Accessible-->
-### すぐれた操作支援
+### やさしい操作
 
 <!--Featured built-in accessibility support.-->
 操作支援技術を組み込んでサポートしています。
