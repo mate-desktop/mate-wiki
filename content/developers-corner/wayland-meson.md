@@ -46,7 +46,7 @@ mate-terminal
 
 mozo
 :white_check_mark: finished
-:black_square_button: not started yet
+:white_check_mark: finished
 
 pluma
 :white_check_mark: finished
