@@ -11,6 +11,8 @@ This page describes how to install the MATE Desktop Environment.
 
 We recommend to use a distribution that already comes with the MATE Desktop pre-installed, such as (but not limited to):
 
+### Linux
+
 - [Fedora MATE-Compiz Spin](https://spins.fedoraproject.org/mate-compiz/)
 - [Ubuntu MATE](https://ubuntu-mate.org/)
 - [Linux Mint - MATE](https://linuxmint.com/edition.php?id=285)
@@ -18,6 +20,14 @@ We recommend to use a distribution that already comes with the MATE Desktop pre-
 - [Manjaro MATE Community Edition](https://manjaro.org/download/#mate)
 
 If you already have a Linux distribution installed and want to switch to the MATE Desktop without reinstalling everything, this is still possible. Almost every distribution include the MATE Desktop in their official repositories.
+
+### BSD
+
+- [GhostBSD](https://www.ghostbsd.org/download): A simple desktop-oriented operating system based on FreeBSD with MATE.
+
+### Illumos
+
+-[openIndiana](https://www.openindiana.org/download/)
 
 ## Manual installation
 
