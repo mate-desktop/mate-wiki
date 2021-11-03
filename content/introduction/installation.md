@@ -27,7 +27,7 @@ If you already have a Linux distribution installed and want to switch to the MAT
 
 ### Illumos
 
--[openIndiana](https://www.openindiana.org/download/)
+- [openIndiana](https://www.openindiana.org/download/): A continuation of the OpenSolaris operating system with Mate Desktop.
 
 ## Manual installation
 
@@ -83,4 +83,49 @@ Install the MATE Desktop Environment with
 
 - `sudo pacman -Sy mate-desktop-environment`
 {{< /tab >}}
+{{< tab "FreeBSD" >}}
+Install the MATE Desktop Environment with
+- `pkg install xorg lightdm mate`
+
+then enable lightdm to `/etc/rc.conf`:
+
+```
+moused_enable="YES"
+dbus_enable="YES"
+hald_enable="YES"
+lightdm_enable="YES"
+```
+At last, add mate-session to `~/.xinitrc`:
+
+```
+exec mate-session
+```
+{{< /tab >}}
+
+{{< tab "OpenBSD" >}}
+Install the MATE Desktop Environment with
+
+- `pkg_add slim mate mate-utils mate-extras`
+
+first, enable dbus to `/etc/rc.conf.local`:
+
+```
+xdm_flags=NO
+pkg_scripts="dbus_daemon avahi_daemon"
+dbus_enable=YES
+multicast_host=YES
+```
+
+then enable slim to `/etc/rc.local`:
+```
+/usr/local/bin/slim -d
+```
+
+at last, enable mate-session to `~/.xinitrc`:
+
+```
+exec mate-session
+```
+{{< /tab >}}
+
 {{< /tabs >}}
