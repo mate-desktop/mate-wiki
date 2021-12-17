@@ -87,7 +87,7 @@ Install the MATE Desktop Environment with
 Install the MATE Desktop Environment with
 - `pkg install xorg lightdm mate`
 
-then enable lightdm to `/etc/rc.conf`:
+then add lightdm to `/etc/rc.conf`:
 
 ```
 moused_enable="YES"
@@ -105,23 +105,23 @@ exec mate-session
 {{< tab "OpenBSD" >}}
 Install the MATE Desktop Environment with
 
-- `pkg_add slim mate mate-utils mate-extras`
+- `pkg_add slim slim-themes mate mate-utils mate-extras`
 
-first, enable dbus to `/etc/rc.conf.local`:
+first, add dbus to `/etc/rc.conf.local`:
 
 ```
 xdm_flags=NO
-pkg_scripts="dbus_daemon avahi_daemon"
-dbus_enable=YES
+apmd_flags=-A
+pkg_scripts="dbus_daemon messagebus"
 multicast_host=YES
 ```
 
-then enable slim to `/etc/rc.local`:
+then add slim to `/etc/rc.local`:
 ```
 /usr/local/bin/slim -d
 ```
 
-at last, enable mate-session to `~/.xinitrc`:
+at last, add mate-session to `~/.xinitrc`:
 
 ```
 exec mate-session
