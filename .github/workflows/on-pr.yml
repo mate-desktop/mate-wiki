@@ -21,7 +21,7 @@ jobs:
           # extended: true
 
       - name: Build website
-        run: hugo --baseURL=https://wiki.mate-desktop.dev/
+        run: hugo --cleanDestinationDir --baseURL=https://wiki.mate-desktop.dev/
 
       - name: Deploy website
         uses: peaceiris/actions-gh-pages@v3
@@ -31,3 +31,13 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./public
           cname: wiki.mate-desktop.dev
+          
+      - name: Update status
+        uses: Sibz/github-status-action@v1
+        with:
+          authToken: ${{secrets.GITHUB_TOKEN}}
+          context: 'website-preview / deploy (update)'
+          description: 'Deployed, click "Details" to view ->'
+          state: 'success'
+          target_url: https://wiki.mate-desktop.dev
+          sha: ${{github.event.pull_request.head.sha || github.sha}}
