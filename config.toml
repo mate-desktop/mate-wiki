@@ -2,6 +2,8 @@ baseURL = "https://wiki.mate-desktop.org/"
 title = "MATEwiki"
 theme = "hugo-geekdoc"
 
+enableEmoji = true
+
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
 pygmentsCodeFences = true
