@@ -88,6 +88,6 @@ Install the MATE Desktop Environment with
 {{< tab "Solus" >}}
 Install the MATE Desktop Environment with
 
-- `sudo it -c mate.desktop`
+- `sudo eopkg it -c mate.desktop`
 {{< /tab >}}
 {{< /tabs >}}
