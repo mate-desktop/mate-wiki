@@ -18,6 +18,7 @@ We recommend to use a distribution that already comes with the MATE Desktop pre-
 - [Linux Mint - MATE](https://linuxmint.com/edition.php?id=285)
 - [Debian](https://www.debian.org/): In the net-install installer choose the "Mate Desktop Environment" option. Alternatively you can use a [live install image](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/) (scroll down and choose the iso file with "mate" in its name).
 - [Manjaro MATE Community Edition](https://manjaro.org/download/#mate)
+- [Solus](https://getsol.us/download/)
 
 If you already have a Linux distribution installed and want to switch to the MATE Desktop without reinstalling everything, this is still possible. Almost every distribution include the MATE Desktop in their official repositories.
 
@@ -82,5 +83,11 @@ Install the MATE Desktop Environment with
 Install the MATE Desktop Environment with
 
 - `sudo pacman -Sy mate-desktop-environment`
+{{< /tab >}}
+
+{{< tab "Solus" >}}
+Install the MATE Desktop Environment with
+
+- `sudo it -c mate.desktop`
 {{< /tab >}}
 {{< /tabs >}}
