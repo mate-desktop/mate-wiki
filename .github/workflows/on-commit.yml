@@ -21,7 +21,7 @@ jobs:
           # extended: true
 
       - name: Build website
-        run: hugo  # we should not use the --minify option with our theme
+        run: hugo --cleanDestinationDir
 
       - name: Deploy website
         uses: peaceiris/actions-gh-pages@v3
@@ -30,3 +30,4 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           cname: wiki.mate-desktop.org
+          force_orphan: true
