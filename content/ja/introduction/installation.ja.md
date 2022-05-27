@@ -20,7 +20,8 @@ weight: -20
 - [Fedora MATE-Compiz Spin](https://spins.fedoraproject.org/mate-compiz/)
 - [Ubuntu MATE](https://ubuntu-mate.org/)
 - [Linux Mint - MATE](https://linuxmint.com/edition.php?id=285)
-- [Debian](https://www.debian.org/): In the net-install installer choose the "Mate Desktop Environment" option. Alternatively you can use a [live install image](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/) (scroll down and choose the iso file with "mate" in its name).
+<!--- [Debian](https://www.debian.org/): In the net-install installer choose the "Mate Desktop Environment" option. Alternatively you can use a [live install image](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/) (scroll down and choose the iso file with "mate" in its name).-->
+- [Debian](https://www.debian.org/): ネットワーク用インストーラを利用する場合は、「Mate デスクトップ環境」というオプションを選択します。また、[Debian live インストールイメージ|live install image](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)を使用することもできます（スクロールダウンして、名前に「mate」が含まれる iso ファイルを選択してください）。
 - [Manjaro MATE Community Edition](https://manjaro.org/download/#mate)
 - [Solus](https://getsol.us/download/)
 
@@ -29,7 +30,8 @@ weight: -20
 
 ### BSD
 
-- [GhostBSD](https://www.ghostbsd.org/download): A simple desktop-oriented operating system based on FreeBSD with MATE.
+<!--- [live install image](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)A simple desktop-oriented operating system based on FreeBSD with MATE.-->
+- [live install image](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/) FreeBSD をベースに MATE を搭載したシンプルなデスクトップ向けオペレーティングシステムです。
 
 ### Illumos
 
@@ -38,21 +40,26 @@ weight: -20
 <!--## Manual installation-->
 ## マニュアル・インストール
 
-We now describe how to install the MATE Desktop manually from the official repositories of your distribution. The manual install is useful, if you have a distribution without a graphical interface and decided to use the MATE Desktop.
+<!--We now describe how to install the MATE Desktop manually from the official repositories of your distribution. The manual install is useful, if you have a distribution without a graphical interface and decided to use the MATE Desktop.-->
+ここでは、ディストリビューションの公式リポジトリから MATE デスクトップを手動（マニュアル）でインストールする方法について説明します。マニュアル・インストールは、グラフィカルインターフェースを持たないディストリビューションで、MATE デスクトップを使用したい場合に便利です。
 
 
 {{< hint danger >}}
-**Manual install**\
-If you already have a Desktop Environment installed (like Gnome, KDE, ...) and install MATE on top of that, there can be conflicting programs (window manager, screensaver, control centre, ...). You can try to remove the old Desktop Environment, but keep in mind that this is not the recommended way to get the best MATE experience.
+<!--**Manual install**\-->
+**マニュアル・インストール
+<!--If you already have a Desktop Environment installed (like Gnome, KDE, ...) and install MATE on top of that, there can be conflicting programs (window manager, screensaver, control centre, ...). You can try to remove the old Desktop Environment, but keep in mind that this is not the recommended way to get the best MATE experience.-->
+すでにデスクトップ環境（Gnome、KDE など）をインストールしていて、その上 に MATE をインストールした場合、競合するプログラム（ウィンドウマネージャ、スクリーンセーバー、コントロールセンターなど）が存在する可能性があります。古いデスクトップ環境を削除することは可能ですが、MATE デスクトップを最良の状態で使用するためには推奨されない方法であることに注意してください。
 {{< /hint >}}
 
 {{< tabs "manual-install" >}}
 {{< tab "Debian/Ubuntu/Linux Mint" >}}
-Install the MATE Desktop Environment with
+<!--Install the MATE Desktop Environment with-->
+MATE デスクトップ環境は端末から以下のコマンドでインストールします。
 
 - `sudo apt install mate-desktop-environment`
 
-If you want some extras (such as a menu-editor) you can replace the above command with
+<!--If you want some extras (such as a menu-editor) you can replace the above command with-->
+メニューエディタなど複数の追加機能が必要な場合は、上記のコマンドを次のように置き換えることができます。
 
 - `sudo apt install mate-desktop-environment-extras`
 
