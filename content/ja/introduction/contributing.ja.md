@@ -12,10 +12,10 @@ weight: -15
 ## ようこそ
 
 <!--Hi! We are the MATE Desktop Team and we are glad you found your way to this page. We always need new people who want to help. Help can be done in many several ways and everyone can help in one way or another. Yes, we said everyone, because the MATE Desktop is composed of so many different bits and pieces; not finding anything that suits you is almost impossible. The most important thing is that you are motivated and have a willingness to learn.-->
-こんにちは！私たちは MATE デスクトップチームでです。あなたがこの Wiki ページにたどり着いたことを嬉しく思います。私たちは常に、ご支援していただける新しい仲間を求めています。プロジェクトの支援には様々な方法があるので、誰でもが何らかの形で支援することができます。なぜなら、MATEデスクトップはとても多くのソフトウェアから構成されているからです。ですから、ご自分に合ったk貢献の仕方が必ず見つかるはずです。一番大切なことは、あなたが前向きに取り組む姿勢があること、そして、学ぼうとする意欲があることです。
+こんにちは！私たちは MATE デスクトップチームでです。あなたがこの Wiki ページにたどり着いたことを嬉しく思います。私たちは常に、ご支援していただける新しい仲間を求めています。プロジェクトの支援には様々な方法があるので、誰でもが何らかの形で支援することができます。なぜなら、MATEデスクトップはとても多くのソフトウェアから構成されているからです。ですから、ご自分に合った貢献の仕方が必ず見つかるはずです。一番大切なことは、あなたが前向きに取り組む姿勢があること、そして、学ぼうとする意欲があることです。
 
 <!--To make the initial steps as easy as possible for you, we set up some tutorials. Currently there are tutorials for [artwork and themes](../../contributing/artwork-and-themes/getting-started/) for [software development](../../contributing/software-development/getting-started/) and for [translation](../../contributing/translation/getting-started/).-->
-最初のステップをできるだけ簡単にするために、いくつかのチュートリアル（手順）を作成しました。現在、[アートワーク|artwork and themes](../../contributing/artwork-and-themes/getting-started/)のチュートリアル、[ソフトウェア開発|software development](../../contributing/software-development/getting-started/)のテーマ、[翻訳|translation](../../contributing/translation/getting-started/)のチュートリアルがあります。
+最初のステップをできるだけ簡単にするために、いくつかのチュートリアル（手順）を作成しました。現在のところ、[アートワーク|artwork and themes](../../contributing/artwork-and-themes/getting-started/)のチュートリアル、[ソフトウェア開発|software development](../../contributing/software-development/getting-started/)のテーマ、[翻訳|translation](../../contributing/translation/getting-started/)のチュートリアルがあります。
 
 <!--## Contact-->
 ## 連絡先（照会先）
