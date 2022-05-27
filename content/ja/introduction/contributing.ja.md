@@ -13,11 +13,13 @@ weight: -15
 <!--Hi! We are the MATE Desktop Team and we are glad you found your way to this page. We always need new people who want to help. Help can be done in many several ways and everyone can help in one way or another. Yes, we said everyone, because the MATE Desktop is composed of so many different bits and pieces; not finding anything that suits you is almost impossible. The most important thing is that you are motivated and have a willingness to learn.-->
 こんにちは！私たちは MATE デスクトップチームでです。あなたがこの Wiki ページにたどり着いたことを嬉しく思います。私たちは常に、ご支援していただける新しい仲間を求めています。プロジェクトの支援には様々な方法があるので、誰でもが何らかの形で支援することができます。なぜなら、MATEデスクトップはとても多くのソフトウェアから構成されているからです。ですから、ご自分に合ったものが見つからないということはまずありません。一番大切なことは、あなたが前向きに取り組む姿勢があること、そして、学ぼうとする意欲があることです。
 
-To make the initial steps as easy as possible for you, we set up some tutorials. Currently there are tutorials for [artwork and themes](../../contributing/artwork-and-themes/getting-started/) for [software development](../../contributing/software-development/getting-started/) and for [translation](../../contributing/translation/getting-started/).
+<!--To make the initial steps as easy as possible for you, we set up some tutorials. Currently there are tutorials for [artwork and themes](../../contributing/artwork-and-themes/getting-started/) for [software development](../../contributing/software-development/getting-started/) and for [translation](../../contributing/translation/getting-started/).-->
+最初のステップをできるだけ簡単にするために、いくつかのチュートリアル（手順）を作成しました。現在、アートワークのチュートリアル、ソフトウェア開発のテーマ、翻訳のチュートリアルがあります。
 
-## Contact
+## Contact 連絡を取るには
 
 If you have any questions do not hesitate to come and ask us.
+<!--何かご不明な点や質問があれば、ご遠慮なく下記の宛先へご照会ください。-->
 
 ### IRC
 
