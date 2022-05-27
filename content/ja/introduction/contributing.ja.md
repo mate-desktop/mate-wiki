@@ -23,19 +23,23 @@ weight: -15
 
 ### IRC
 
-All MATE channels are on the [irc.libera.chat](https://libera.chat/) server.
+<!--All MATE channels are on the [irc.libera.chat](https://libera.chat/) server.-->
+MATE のチャンネルはすべて irc.libera.chat サーバに用意しています。
 
 Webchat: https://web.libera.chat/?#mate
 
 Matrix: https://matrix.to/#/#mate:libera.chat
 
-They are also available on the libera.chat Matrix server.
+<!--They are also available on the libera.chat Matrix server.-->
+また、libera.chat Matrix のサーバーでも利用可能です。
 
-***Main channel***
+<!--***Main channel***-->
+***主要チャンネル***
 
     #mate - Main MATE channel (discussion, support, bugs, installation help)
 
-***Other channels***
+<!--***Other channels***-->
+***その他のチャンネル***
 
     #mate-dev - Development related discussions channel
 
