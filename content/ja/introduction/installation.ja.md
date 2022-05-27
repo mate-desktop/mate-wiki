@@ -1,15 +1,19 @@
 ---
-title: Installation
+<!--title: Installation-->
+title: インストール
 weight: -20
 ---
 
-This page describes how to install the MATE Desktop Environment.
+<!--This page describes how to install the MATE Desktop Environment.-->
+このページでは、MATE デスクトップ環境をインストールする方法について説明します。
 
 {{< toc >}}
 
-## Preinstalled
+<!--## Preinstalled-->
+## プリインストール
 
-We recommend to use a distribution that already comes with the MATE Desktop pre-installed, such as (but not limited to):
+<!--We recommend to use a distribution that already comes with the MATE Desktop pre-installed, such as (but not limited to):-->
+私たちは、すでにMATEデスクトップがインストール済みの Linux ディストリビューション（下記）をお使いになることをお推めします（ただし、それに限定されることはありません）。
 
 ### Linux
 
@@ -20,7 +24,8 @@ We recommend to use a distribution that already comes with the MATE Desktop pre-
 - [Manjaro MATE Community Edition](https://manjaro.org/download/#mate)
 - [Solus](https://getsol.us/download/)
 
-If you already have a Linux distribution installed and want to switch to the MATE Desktop without reinstalling everything, this is still possible. Almost every distribution include the MATE Desktop in their official repositories.
+<!--If you already have a Linux distribution installed and want to switch to the MATE Desktop without reinstalling everything, this is still possible. Almost every distribution include the MATE Desktop in their official repositories.-->
+すでに Linux ディストリビューションがインストールされていて、すべて再インストールすることなく MATE デスクトップに切り替えたい場合にも、これらのディストリビューションでは利用可能です。ほとんどのディストリビューションは公式のリポジトリに MATE デスクトップを用意しています。
 
 ### BSD
 
@@ -30,9 +35,11 @@ If you already have a Linux distribution installed and want to switch to the MAT
 
 -[openIndiana](https://www.openindiana.org/download/)
 
-## Manual installation
+<!--## Manual installation-->
+## マニュアル・インストール
 
 We now describe how to install the MATE Desktop manually from the official repositories of your distribution. The manual install is useful, if you have a distribution without a graphical interface and decided to use the MATE Desktop.
+
 
 {{< hint danger >}}
 **Manual install**\
