@@ -64,43 +64,53 @@ MATE デスクトップ環境は端末から以下のコマンドでインスト
 - `sudo apt install mate-desktop-environment-extras`
 
 You can still install the extras later on if you are not sure about it right now.
+今は未だよく分からないないという方は、後から一連のアプリケーション (Extras) を追加することができます。
 
-If you do not have a desktop environment installed already you might want to install a graphical [display manager](https://wiki.archlinux.org/title/Display_manager).
+<!--If you do not have a desktop environment installed already you might want to install a graphical [display manager](https://wiki.archlinux.org/title/Display_manager).-->
+デスクトップ環境を未だインストールしていない場合は、グラフィカルなディスプレイ・マネージャーをインストールすることをお推めします。
 
-For example you can use  [LightDM](https://wiki.archlinux.org/title/LightDM):
+<!--For example you can use  [LightDM](https://wiki.archlinux.org/title/LightDM):-->
+たとえば、あなたが [LightDM](https://wiki.archlinux.org/title/LightDM) を使いたいときは次のようにしてインストールします。
 
 - `sudo apt install lightdm lightdm-gtk-greeter`
 
-After rebooting you should be able to login to the MATE Desktop.
+<!--After rebooting you should be able to login to the MATE Desktop.-->
+再起動後、MATE デスクトップにログインできるようになるはずです。
 
-If you do not want a display manager, you can add mate-session to `~/.xinitrc` file.
+<!--If you do not want a display manager, you can add mate-session to `~/.xinitrc` file.-->
+ディスプレイマネージャーが不要な場合は、 `~/.xinitrc` ファイルに mate-session を追加してください。
 
 ```
 exec ck-launch-session mate-session
 ```
-Now can type `startx`.
+<!--Now can type `startx`.-->
+これで `startx` と入力できるようになります。
 
 {{< hint info >}}
-If you have authorization problems (e.g. when mounting disks), try adding `dbus-launch` after `ck-launch-session`.
+<!--If you have authorization problems (e.g. when mounting disks), try adding `dbus-launch` after `ck-launch-session`.-->
+もし、認証に問題がある場合 (例えば、ディスクをマウントする時)、 `ck-launch-session` の後に `dbus-launch` を追加してみてください。
 
 {{< /hint >}}
 
 {{< /tab >}}
 
 {{< tab "Fedora" >}}
-Install the MATE Desktop Environment with
+<!--Install the MATE Desktop Environment with-->
+MATE デスクトップ環境をインストールするには、次のコマンドです。
 
 - `sudo dnf install mate-desktop-environment`
 {{< /tab >}}
 
 {{< tab "Arch/Manjaro" >}}
-Install the MATE Desktop Environment with
+<!--Install the MATE Desktop Environment with-->
+MATE デスクトップ環境をインストールするには、次のコマンドです。
 
 - `sudo pacman -Sy mate-desktop-environment`
 {{< /tab >}}
 
 {{< tab "Solus" >}}
-Install the MATE Desktop Environment with
+<!--Install the MATE Desktop Environment with
+MATE デスクトップ環境をインストールするには、次のコマンドです。-->
 
 - `sudo eopkg it -c desktop.mate`
 {{< /tab >}}
