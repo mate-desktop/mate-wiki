@@ -82,7 +82,7 @@ Install the MATE Desktop Environment with
 {{< tab "Arch/Manjaro" >}}
 Install the MATE Desktop Environment with
 
-- `sudo pacman -Sy mate-desktop-environment`
+- `sudo pacman -Sy mate mate-extra`
 {{< /tab >}}
 
 {{< tab "Solus" >}}
