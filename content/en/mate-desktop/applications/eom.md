@@ -20,7 +20,7 @@ Eye  of MATE features a flexible plugin system which can be used to dynamically 
 
     <--->
 
-[![test](../images/eom-window.png)](../images/eom-window.png)
+![](/img/applications/eom-window.png)
 
 {{< /columns >}}
 

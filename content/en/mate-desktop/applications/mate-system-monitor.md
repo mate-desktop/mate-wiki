@@ -24,7 +24,7 @@ The  System tab will display basic information about your system like Hostname, 
 
     <--->
 
-[![](../images/mate-system-monitor-window.png)](../images/mate-system-monitor-window.png)
+![](/img/applications/mate-system-monitor-window.png)
 
 {{< /columns >}}
 

@@ -22,7 +22,7 @@ copying  text to the clipboard, hypertext navigation, and table-of-contents book
 
     <--->
 
-[![](../images/atril-window.png)](../images/atril-window.png)
+![](/img/applications/atril-window.png)
 
 {{< /columns >}}
 

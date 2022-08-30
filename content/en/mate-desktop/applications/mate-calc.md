@@ -20,7 +20,7 @@ mate-calc  is the official calculator for the MATE Desktop Environment. It has b
 
     <--->
 
-[![](../images/mate-calc-window.png)](../images/mate-calc-window.png)
+![](/img/applications/mate-calc-window.png)
 
 {{< /columns >}}
 

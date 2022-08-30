@@ -23,7 +23,7 @@ files from an archive. You can also view the contents of an archive and open fil
 
     <--->
 
-[![](../images/engrampa-window.png)](../images/engrampa-window.png)
+![](/img/applications/engrampa-window.png)
 
 {{< /columns >}}
 
