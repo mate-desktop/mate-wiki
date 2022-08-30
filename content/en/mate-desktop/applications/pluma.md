@@ -20,7 +20,7 @@ Pluma  features  a  flexible plugin system which can be used to dynamically add 
 
     <--->
 
-[![](../images/pluma-window.png)](../images/pluma-window.png)
+![](/img/applications/pluma-window.png)
 
 {{< /columns >}}
 

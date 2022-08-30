@@ -19,7 +19,7 @@ fork of Alacarte.
 
     <--->
 
-[![](../images/mozo-window.png)](../images/mozo-window.png)
+![](/img/applications/mozo-window.png)
 
 {{< /columns >}}
 

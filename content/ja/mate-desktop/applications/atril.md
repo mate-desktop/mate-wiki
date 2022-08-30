@@ -22,7 +22,7 @@ Atril は、MATE デスクトップ環境の公式な文書ビューアです。
 
     <--->
 
-[![](../images/atril-window.png)](../images/atril-window.png)
+![](/img/applications/atril-window.png)
 
 {{< /columns >}}
 

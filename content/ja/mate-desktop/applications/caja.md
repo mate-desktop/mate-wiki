@@ -20,7 +20,7 @@ Caja は MATE デスクトップ環境において標準のファイルマネー
 
     <--->
 
-[![](../images/caja-window.png)](../images/caja-window.png)
+![](/img/applications/caja-window.png)
 
 {{< /columns >}}
 
