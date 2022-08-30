@@ -1,5 +1,5 @@
 ---
-title: Contributing
+title: 開発に参加するには
 weight: -15
 ---
 
