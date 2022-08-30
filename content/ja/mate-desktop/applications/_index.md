@@ -1,4 +1,5 @@
 ---
-geekdocCollapseSection: true
+title: アプリケーション
+weight: -20
 ---
 
