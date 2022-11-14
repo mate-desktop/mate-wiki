@@ -24,6 +24,18 @@ Pluma  features  a  flexible plugin system which can be used to dynamically add 
 
 {{< /columns >}}
 
+## User documentation
+
+There is no user documentation currently for Pluma. The basic features are similar to those of Gedit (https://help.gnome.org/users/gedit/stable/), although the user interface design is different.
+
+### Find-and-replace
+
+The find-and-replace feature in Pluma includes support for regular expressions. This feature is implemented using the PCRE library. Documentation on the regular expression syntax is provided at https://perldoc.perl.org/perlre.
+
+### Command-line use
+
+If invoking Pluma from the command line (ie terminal window), a number of command-line options can be provided that alter Pluma's behaviour. See `man pluma` for details, or see below.
+
 {{< expand "More">}}
 
 SYNOPSIS
