@@ -50,6 +50,25 @@ OPTIONS
 
 ## Build / Install
 
+***Meson***
+
+Simple build procedure:
+
+```
+$ meson build --prefix=/usr                 # Build configuration
+$ cd build
+$ ninja                                     # Build
+```
+
+After building the package you may install it:
+
+```
+[ Become root if necessary ]
+$ ninja install                              # Installation
+```
+
+***Autotools***
+
 Simple build procedure:
 
 ```
