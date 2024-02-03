@@ -28,7 +28,7 @@ If you already have a Linux distribution installed and want to switch to the MAT
 
 ### Illumos
 
-- [openIndiana](https://www.openindiana.org/download/)
+- [openIndiana](https://www.openindiana.org/downloads/)
 
 ## Manual installation
 
