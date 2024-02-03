@@ -20,7 +20,8 @@ Engrampa では、書庫（アーカイブ）からのファイル作成、変�
 
     <--->
 
-[![](../images/engrampa-window.png)](../images/engrampa-window.png)
+![](/img/applications/engrampa-window.png)
+
 
 {{< /columns >}}
 
