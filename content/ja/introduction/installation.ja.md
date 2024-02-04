@@ -98,7 +98,7 @@ exec ck-launch-session mate-session
 <!--Install the MATE Desktop Environment with-->
 MATE デスクトップ環境をインストールするには、次のコマンドです。
 
-- `sudo dnf install mate-desktop-environment`
+- `sudo dnf groupinstall "Mate Desktop"`
 {{< /tab >}}
 
 {{< tab "Arch/Manjaro" >}}
