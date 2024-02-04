@@ -4,6 +4,8 @@ theme = "hugo-geekdoc"
 
 enableEmoji = true
 
+pluralizeListTitles = false
+
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
 pygmentsCodeFences = true
