@@ -76,7 +76,7 @@ If you have authorization problems (e.g. when mounting disks), try adding `dbus-
 {{< tab "Fedora" >}}
 Install the MATE Desktop Environment with
 
-- `sudo dnf install mate-desktop-environment`
+- `sudo dnf groupinstall "Mate Desktop"`
 {{< /tab >}}
 
 {{< tab "Arch/Manjaro" >}}
