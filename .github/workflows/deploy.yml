@@ -1,4 +1,5 @@
-name: on commit
+# .github/workflows/preview.yml
+name: deploy
 
 on:
   push:
