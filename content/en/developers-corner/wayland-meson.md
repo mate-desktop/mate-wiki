@@ -33,7 +33,7 @@ mate-calc
 :white_check_mark: finished
 
 mate-control-center
-:black_square_button: not started yet
+:white_check_mark: finished
 :black_square_button: not started yet
 
 mate-system-monitor
