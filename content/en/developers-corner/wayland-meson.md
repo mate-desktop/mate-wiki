@@ -22,27 +22,59 @@ caja
 
 engrampa
 :white_check_mark: finished
-:black_square_button: not started yet
+:white_check_mark: finished
 
 eom
 :white_check_mark: finished
-:black_square_button: not started yet
+:white_check_mark: finished
 
 mate-calc
 :white_check_mark: finished
 :white_check_mark: finished
 
+mate-applets:
+:white_check_mark: finished
+:black_square_button: not started yet
+
 mate-control-center
+:white_check_mark: finished
+:white_check_mark: finished
+
+mate-desktop
+:white_check_mark: finished
+:white_check_mark: finished
+
+mate-media:
+:white_check_mark: finished
+:white_check_mark: finished
+
+mate-notification-daemon:
+:white_check_mark: finished
+:black_square_button: not started yet
+
+mate-panel:
+:white_check_mark: finished
+:black_square_button: not started yet
+
+mate-polkit:
+:white_check_mark: finished
+:white_check_mark: finished
+
+mate-sensors-applet
 :white_check_mark: finished
 :black_square_button: not started yet
 
 mate-system-monitor
 :white_check_mark: finished
-:black_square_button: not started yet
+:white_check_mark: finished
 
 mate-terminal
 :white_check_mark: finished
 :white_check_mark: finished
+
+mate-utils
+:white_check_mark: finished
+:black_square_button: not started yet
 
 mozo
 :white_check_mark: finished
