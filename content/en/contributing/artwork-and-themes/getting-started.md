@@ -21,4 +21,4 @@ The MATE Desktop uses the [GTK+ 3](https://developer.gnome.org/gtk3/stable/) gra
 
 MATE has evolved from GNOME 2, but some design principles that we follow are still roughly based on the GNOME Human Interface Guidelines 2.3.2:
 
- - [Gnome Human Interface Guidelines 2.3.2](https://developer-old.gnome.org/hig-book/2.32/)
+ - [Gnome Human Interface Guidelines 2.2.1](https://mbkma.github.io/gnome-2-hig-book/)
