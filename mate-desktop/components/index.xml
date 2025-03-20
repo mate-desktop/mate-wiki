@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/mate-desktop/components/</link>
+    <description>Recent content on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/mate-desktop/components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>caja-actions</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/caja-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/caja-actions/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>caja-extensions</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/caja-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/caja-extensions/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>marco - Window Manager</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/marco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/marco/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;Marco is a minimal X window manager that uses GTK+ for drawing window frames. It is aimed at non-technical users and is designed to integrate well with the MATE desktop. Marco is a plain window manager for the adult in you; Many window managers are like Marshmallow Froot Loops, Marco is like Cheerios. It lacks some features that may be expected by traditional UNIX or other technical users; these users may want to investigate other available window managers for use with MATE or as a standalone window manager.</description>
+    </item>
+    <item>
+      <title>mate-applets</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-applets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-applets/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;mate-applets contains applets for use with the MATE panel.&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-desktop</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-desktop/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-indicator-applet</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-indicator-applet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-indicator-applet/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;mate-indicator-applet is a small applet to display information from various applications consistently in the panel. The indicator applet exposes Ayatana Indicators in the MATE Panel. Ayatana Indicators are an initiative by Canonical to provide crisp and clean system and application status indication. They take the form of an icon and associated menu, displayed (usually) in the desktop panel. Existing indicators include the Message Menu, Battery Menu and Sound menu.</description>
+    </item>
+    <item>
+      <title>mate-media</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-media/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-menus</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-menus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-menus/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-netbook</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-netbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-netbook/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-notification-daemon</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-notification-daemon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-notification-daemon/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-panel</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-panel/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;The mate-panel program provides the panels for the the MATE Desktop Environment. It is the area on your desktop from which you can run applications and applets, and perform other tasks. New applets may also be installed ,added to, or removed from the panels.&#xA;By default, mate-panel typically creates a panel on the top of the screen with applets such as a Menu Bar, Notification Area, and Clock; While creating a second panel on the bottom of the screen with a Window List and a Workspace Switcher.</description>
+    </item>
+    <item>
+      <title>mate-polkit</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-polkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-polkit/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-screensaver</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-screensaver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-screensaver/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-sensors-applet</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-sensors-applet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-sensors-applet/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-session-manager</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-session-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-session-manager/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-settings-daemon</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-settings-daemon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-settings-daemon/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>mate-utils</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/mate-utils/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/mate-utils/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>pluma-plugins</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/pluma-plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/pluma-plugins/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>python-caja</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/components/python-caja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/components/python-caja/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+  </channel>
+</rss>

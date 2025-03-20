@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>eom-metadata-reader: Eye of MATE Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="Eye of MATE Reference Manual">
+<link rel="up" href="ch02.html" title="Image data and manipulation">
+<link rel="prev" href="eom-eom-transform.html" title="EomTransform">
+<link rel="next" href="EomMetadataReaderPng.html" title="EomMetadataReaderPng">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#eom-eom-metadata-reader.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#eom-eom-metadata-reader.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_implementations">  <span class="dim">|</span> 
+                  <a href="#eom-eom-metadata-reader.implementations" class="shortcut">Known Implementations</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="eom-eom-transform.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="EomMetadataReaderPng.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="eom-eom-metadata-reader"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="eom-eom-metadata-reader.top_of_page"></a>eom-metadata-reader</span></h2>
+<p>eom-metadata-reader</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="eom-eom-metadata-reader.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#EOM-METADATA-READER-GET-INTERFACE:CAPS" title="EOM_METADATA_READER_GET_INTERFACE()">EOM_METADATA_READER_GET_INTERFACE</a><span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="returnvalue">EomMetadataReader</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-new" title="eom_metadata_reader_new ()">eom_metadata_reader_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-consume" title="eom_metadata_reader_consume ()">eom_metadata_reader_consume</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-finished" title="eom_metadata_reader_finished ()">eom_metadata_reader_finished</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-get-exif-chunk" title="eom_metadata_reader_get_exif_chunk ()">eom_metadata_reader_get_exif_chunk</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ExifData</span> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-get-exif-data" title="eom_metadata_reader_get_exif_data ()">eom_metadata_reader_get_exif_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">XmpPtr</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-get-xmp-data" title="eom_metadata_reader_get_xmp_data ()">eom_metadata_reader_get_xmp_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gpointer"><span class="returnvalue">gpointer</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-get-iptc-chunk" title="eom_metadata_reader_get_iptc_chunk ()">eom_metadata_reader_get_iptc_chunk</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">IptcData</span> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-get-iptc-data" title="eom_metadata_reader_get_iptc_data ()">eom_metadata_reader_get_iptc_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">cmsHPROFILE</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-metadata-reader.html#eom-metadata-reader-get-icc-profile" title="eom_metadata_reader_get_icc_profile ()">eom_metadata_reader_get_icc_profile</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="EomMetadataReader"></a><div class="refsect1">
+<a name="eom-eom-metadata-reader.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader-struct" title="EomMetadataReader">EomMetadataReader</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReaderInterface" title="struct EomMetadataReaderInterface">EomMetadataReaderInterface</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="eom-eom-metadata-reader.html#EomMetadataFileType" title="enum EomMetadataFileType">EomMetadataFileType</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-metadata-reader.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/GTypeModule.html">GInterface</a>
+    <span class="lineart">╰──</span> EomMetadataReader
+</pre>
+</div>
+<div class="refsect1">
+<a name="eom-eom-metadata-reader.implementations"></a><h2>Known Implementations</h2>
+<p>
+EomMetadataReader is implemented by
+ <a class="link" href="EomMetadataReaderJpg.html" title="EomMetadataReaderJpg">EomMetadataReaderJpg</a> and  <a class="link" href="EomMetadataReaderPng.html" title="EomMetadataReaderPng">EomMetadataReaderPng</a>.</p>
+</div>
+<div class="refsect1">
+<a name="eom-eom-metadata-reader.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="eom-eom-metadata-reader.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="EOM-METADATA-READER-GET-INTERFACE:CAPS"></a><h3>EOM_METADATA_READER_GET_INTERFACE()</h3>
+<pre class="programlisting">#define EOM_METADATA_READER_GET_INTERFACE(o)  (G_TYPE_INSTANCE_GET_INTERFACE ((o), EOM_TYPE_METADATA_READER, EomMetadataReaderInterface))
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-new"></a><h3>eom_metadata_reader_new ()</h3>
+<pre class="programlisting"><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="returnvalue">EomMetadataReader</span></a> *
+eom_metadata_reader_new (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataFileType" title="enum EomMetadataFileType"><span class="type">EomMetadataFileType</span></a> type</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-consume"></a><h3>eom_metadata_reader_consume ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_metadata_reader_consume (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>,
+                             <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#guchar"><span class="type">guchar</span></a> *buf</code></em>,
+                             <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> len</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-finished"></a><h3>eom_metadata_reader_finished ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+eom_metadata_reader_finished (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-get-exif-chunk"></a><h3>eom_metadata_reader_get_exif_chunk ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_metadata_reader_get_exif_chunk (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>,
+                                    <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guchar"><span class="type">guchar</span></a> **data</code></em>,
+                                    <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> *len</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-get-exif-data"></a><h3>eom_metadata_reader_get_exif_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">ExifData</span> *
+eom_metadata_reader_get_exif_data (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-get-xmp-data"></a><h3>eom_metadata_reader_get_xmp_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">XmpPtr</span>
+eom_metadata_reader_get_xmp_data (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-get-iptc-chunk"></a><h3>eom_metadata_reader_get_iptc_chunk ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gpointer"><span class="returnvalue">gpointer</span></a>
+eom_metadata_reader_get_iptc_chunk (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-get-iptc-data"></a><h3>eom_metadata_reader_get_iptc_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">IptcData</span> *
+eom_metadata_reader_get_iptc_data (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-metadata-reader-get-icc-profile"></a><h3>eom_metadata_reader_get_icc_profile ()</h3>
+<pre class="programlisting"><span class="returnvalue">cmsHPROFILE</span>
+eom_metadata_reader_get_icc_profile (<em class="parameter"><code><a class="link" href="eom-eom-metadata-reader.html#EomMetadataReader"><span class="type">EomMetadataReader</span></a> *emr</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-metadata-reader.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="EomMetadataReader-struct"></a><h3>EomMetadataReader</h3>
+<pre class="programlisting">typedef struct _EomMetadataReader EomMetadataReader;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomMetadataReaderInterface"></a><h3>struct EomMetadataReaderInterface</h3>
+<pre class="programlisting">struct EomMetadataReaderInterface {
+	GTypeInterface parent;
+
+	void		(*consume)		(EomMetadataReader *self,
+						 const guchar *buf,
+						 guint len);
+
+	gboolean (*finished)		(EomMetadataReader *self);
+
+	void		(*get_raw_exif)		(EomMetadataReader *self,
+						 guchar **data,
+						 guint *len);
+
+	gpointer (*get_exif_data) (EomMetadataReader *self);
+
+	gpointer (*get_icc_profile) (EomMetadataReader *self);
+
+	gpointer (*get_xmp_ptr)		(EomMetadataReader *self);
+};
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomMetadataFileType"></a><h3>enum EomMetadataFileType</h3>
+<div class="refsect3">
+<a name="EomMetadataFileType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-METADATA-JPEG:CAPS"></a>EOM_METADATA_JPEG</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-METADATA-PNG:CAPS"></a>EOM_METADATA_PNG</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>はじめに on MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/ja/introduction/</link>
+    <description>Recent content in はじめに on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <atom:link href="https://wiki.mate-desktop.org/ja/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>インストール</title>
+      <link>https://wiki.mate-desktop.org/ja/introduction/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/ja/introduction/installation/</guid>
+      <description>このページでは、MATE デスクトップ環境をインストールする方法について説明します。&#xA;プリインストール Linux BSD Illumos マニュアル・インストール プリインストール 私たちは、すでにMATEデスクトップがインストール済みの Linux ディストリビューション（下記）をお使いになることをお推めします（ただし、それに限定されることはありません）。&#xA;Linux Fedora MATE-Compiz Spin Ubuntu MATE Linux Mint - MATE Debian: ネットワーク用インストーラを利用する場合は、「Mate デスクトップ環境」というオプションを選択します。また、Debian live インストールイメージ|live install imageを使用することもできます（スクロールダウンして、名前に「mate」が含まれる iso ファイルを選択してください）。 Manjaro MATE Community Edition Solus すでに Linux ディストリビューションがインストールされていて、すべて再インストールすることなく MATE デスクトップに切り替えたい場合にも、これらのディストリビューションでは利用可能です。ほとんどのディストリビューションは公式のリポジトリに MATE デスクトップを用意しています。&#xA;BSD live install image FreeBSD をベースに MATE を搭載したシンプルなデスクトップ向けオペレーティングシステムです。 Illumos -openIndiana&#xA;マニュアル・インストール ここでは、ディストリビューションの公式リポジトリから MATE デスクトップを手動（マニュアル）でインストールする方法について説明します。マニュアル・インストールは、グラフィカルインターフェースを持たないディストリビューションで、MATE デスクトップを使用したい場合に便利です。&#xA;**マニュアル・インストール&#xA;すでにデスクトップ環境（Gnome、KDE など）をインストールしていて、その上 に MATE をインストールした場合、競合するプログラム（ウィンドウマネージャ、スクリーンセーバー、コントロールセンターなど）が存在する可能性があります。古いデスクトップ環境を削除することは可能ですが、MATE デスクトップを最良の状態で使用するためには推奨されない方法であることに注意してください。&#xA;Debian/Ubuntu/Linux Mint MATE デスクトップ環境は端末から以下のコマンドでインストールします。&#xA;sudo apt install mate-desktop-environment メニューエディタなど複数の追加機能が必要な場合は、上記のコマンドを次のように置き換えることができます。</description>
+    </item>
+    <item>
+      <title>開発に参加するには</title>
+      <link>https://wiki.mate-desktop.org/ja/introduction/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/ja/introduction/contributing/</guid>
+      <description> このページでは、MATE デスクトップ環境の開発に貢献する方法について説明します。&#xA;ようこそ 連絡先（照会先） IRC ようこそ こんにちは！私たちは MATE デスクトップチームでです。あなたがこの Wiki ページにたどり着いたことを嬉しく思います。私たちは常に、ご支援していただける新しい仲間を求めています。プロジェクトの支援には様々な方法があるので、誰でもが何らかの形で支援することができます。なぜなら、MATEデスクトップはとても多くのソフトウェアから構成されているからです。ですから、ご自分に合った貢献の仕方が必ず見つかるはずです。一番大切なことは、あなたが前向きに取り組む姿勢があること、そして、学ぼうとする意欲があることです。&#xA;最初のステップをできるだけ簡単にするために、いくつかのチュートリアル（手順）を作成しました。現在のところ、アートワーク|artwork and themesのチュートリアル、ソフトウェア開発|software developmentのテーマ、翻訳|translationのチュートリアルがあります。&#xA;連絡先（照会先） 何かご不明な点や質問があれば、ご遠慮なく下記の宛先へご照会ください。&#xA;IRC MATE のチャンネルはすべて irc.libera.chat サーバに用意しています。&#xA;Webchat: https://web.libera.chat/?#mate&#xA;Matrix: https://matrix.to/#/#mate:libera.chat&#xA;また、libera.chat Matrix のサーバーでも利用可能です。&#xA;主要チャンネル&#xA;#mate - Main MATE channel (discussion, support, bugs, installation help) その他のチャンネル&#xA;#mate-dev - Development related discussions channel #debian-mate - Channel for MATE packaging for Debian on [irc.oftc.net](https://www.oftc.net/) server. #fedora-mate - Channel for MATE packaging for Fedora #msb - Channel for MATE packaging for Slackware #opensuse-mate - Channel for MATE packaging for openSUSE #ubuntu-mate - Channel for Ubuntu MATE Remix project </description>
+    </item>
+  </channel>
+</rss>

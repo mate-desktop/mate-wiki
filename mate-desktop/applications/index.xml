@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/mate-desktop/applications/</link>
+    <description>Recent content on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/mate-desktop/applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atril - PDF Viewer</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/atril/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/atril/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;Atril is the official Document Viewer of the MATE Desktop Environment, it is a simple multi-page document viewer. It can display and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS and Portable Document Format (PDF) files.&#xA;When supported by the document, it also allows searching for text, copying text to the clipboard, hypertext navigation, and table-of-contents bookmarks.&#xA;More ↕ SYNTAX&#xA;atril [OPTIONS.</description>
+    </item>
+    <item>
+      <title>Caja - File Manager</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/caja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/caja/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;Caja is the default file manager for the MATE Desktop Environment. It makes it easy to manage, manipulate, and customize files and directories. Caja can access local and remote filesystems such as SSH, FTP, and WebDav (HTTP/HTTPS).&#xA;Caja also provides the desktop background and the icons it uses for launching links and applications, as well as accessing files, directories, the trash, and removable media like CD/DVD/BD and USB drives.</description>
+    </item>
+    <item>
+      <title>Engrampa - File Archiver</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;Engrampa is the official archive manager for the MATE Desktop Environment, it is a graphical front-end to archiving utilities such as tar and zip. It is a fork of File Roller.&#xA;Engrampa supports most common operations such as creating, modifying and extracting files from an archive. You can also view the contents of an archive and open files contained within the archive.</description>
+    </item>
+    <item>
+      <title>EoM - Image Viewer</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/eom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/eom/</guid>
+      <description>Source Code | Bug Tracker | Dependencies | API Documentation&#xA;eom or the Eye of MATE is the official image viewer for the MATE Desktop Environment. It aims to be simplistic, lightweight, and easy to use. The Eye of MATE may also be used to perform basic tasks like image flipping and rotation.&#xA;Eye of MATE features a flexible plugin system which can be used to dynamically add new advanced features to eom itself.</description>
+    </item>
+    <item>
+      <title>MATE Calculator</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/mate-calc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/mate-calc/</guid>
+      <description>Source Code | Bug Tracker | Dependencies | Help&#xA;mate-calc is the official calculator for the MATE Desktop Environment. It has been designed to be used with either the mouse or the keyboard. It is visually similar to a lot of hand-held calculators. More ↕ SYNOPSIS&#xA;mate-calc [OPTIONS...] [FILES...] OPTIONS&#xA;-s, --solve &amp;lt;equation&amp;gt; Solve the equation provided following this option. --version Output version information and exit. -h, -?, --help Print standard command line options.</description>
+    </item>
+    <item>
+      <title>MATE Control Center</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/mate-control-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/mate-control-center/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;mate-control-center is a graphical user interface to configure various aspects of MATE.&#xA;When run without arguments, the shell displays the control center overview, which shows all available configuration panels. The overview allows one to open individual panels by clicking on them. It also has a search entry to find panels by searching keywords.&#xA;More ↕ SYNOPSIS&#xA;mate-control-center [OPTION...] OPTIONS&#xA;-?, --help Print the application&#39;s help options and exit.</description>
+    </item>
+    <item>
+      <title>MATE System Monitor</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/mate-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/mate-system-monitor/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;The mate-system-monitor allows you to view and control the processes running on your system. You can access detailed memory maps, send signals, and terminate the processes.&#xA;In addition, the mate-system-monitor provides an overall view of the resource usage on your system, including memory and CPU allocation, as well as network usage. It also allows you to view file system information such as Device, Type, Mountpoints, and Disk Usage.</description>
+    </item>
+    <item>
+      <title>MATE Terminal</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/mate-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/mate-terminal/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;Mate Terminal is the official terminal emulator for the MATE Desktop. More ↕ Usage:&#xA;mate-terminal [OPTION...] Help Options:&#xA;-h, --help Show help options --help-all Show all help options --help-terminal Show terminal options --help-window-options Show per-window options --help-terminal-options Show per-terminal options --help-gtk Show GTK+ Options --help-sm-client Show session management options Options to open new windows or terminal tabs; more than one of these may be specified:</description>
+    </item>
+    <item>
+      <title>Mozo - Menu Editor</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/mozo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/mozo/</guid>
+      <description> Source Code | Bug Tracker | Dependencies&#xA;Mozo is a menu editor for MATE using the freedesktop.org menu specification. It is a fork of Alacarte. More ↕ SYNOPSIS&#xA;mozo Build / Install Simple build procedure:&#xA;$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:&#xA;$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:&#xA;[ Become root if necessary ] $ make install # Installation </description>
+    </item>
+    <item>
+      <title>Pluma - Text Editor</title>
+      <link>https://wiki.mate-desktop.org/mate-desktop/applications/pluma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/mate-desktop/applications/pluma/</guid>
+      <description>Source Code | Bug Tracker | Dependencies&#xA;Pluma is the official text editor of the MATE desktop environment. While aiming at simplicity and ease of use, Pluma is a powerful general purpose text editor. It can be used to create and edit all sorts of text files.&#xA;Pluma features a flexible plugin system which can be used to dynamically add new advanced features to Pluma itself.&#xA;User documentation There is no user documentation currently for Pluma.</description>
+    </item>
+  </channel>
+</rss>

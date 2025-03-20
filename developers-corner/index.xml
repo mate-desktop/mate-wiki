@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers Corner on MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/developers-corner/</link>
+    <description>Recent content in Developers Corner on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/developers-corner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roadmap</title>
+      <link>https://wiki.mate-desktop.org/developers-corner/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/developers-corner/roadmap/</guid>
+      <description>Package specific tasks This are some package specific tasks for future releases:&#xA;Package Name Task Link caja add option to drag a tab to create a new window #454 caja add option to turn off generic icons in listview #26 caja Update caja integration with tracker search engine tracker dev documentation - Nautilus git log engrampa add libarchive support #52 libmatekbd Consider dropping libmatekbd for libgnomekbd libmateweather Consider dropping libmateweather for libgweather mate-applets add mount point or device blacklist for drivemount applet #24 mate-applets option to show several cores and processors in one cpufreq applet instance #50 mate-applets make cpufreq applet work with intel_pstate driver #173 mate-control-center cache thumbnails for desktop backgrounds in appearance properties mate-menus option to enable/disable preferences categories #35 mate-session-manager in properties dialog, show running apps that can/will be saved on exit #113 pluma add plugin to show (and maybe change) line endings type #50 General Tasks This are some general tasks for future releases, that are not specific to a certain package:</description>
+    </item>
+    <item>
+      <title>Wayland and Meson</title>
+      <link>https://wiki.mate-desktop.org/developers-corner/wayland-meson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/developers-corner/wayland-meson/</guid>
+      <description> Status of Wayland and Meson support Here we track some packages status of the current support for the Wayland protocol and the Meson build system.&#xA;Package Name Wayland Support Meson Support atril &amp;#x2705; finished &amp;#x1f532; not started yet caja &amp;#x2705; finished &amp;#x1f532; not started yet engrampa &amp;#x2705; finished &amp;#x2705; finished eom &amp;#x2705; finished &amp;#x2705; finished mate-calc &amp;#x2705; finished &amp;#x2705; finished mate-applets: &amp;#x2705; finished &amp;#x1f532; not started yet mate-control-center &amp;#x2705; finished &amp;#x2705; finished mate-desktop &amp;#x2705; finished &amp;#x2705; finished mate-media: &amp;#x2705; finished &amp;#x2705; finished mate-notification-daemon: &amp;#x2705; finished &amp;#x1f532; not started yet mate-panel: &amp;#x2705; finished &amp;#x1f532; not started yet mate-polkit: &amp;#x2705; finished &amp;#x2705; finished mate-sensors-applet &amp;#x2705; finished &amp;#x1f532; not started yet mate-system-monitor &amp;#x2705; finished &amp;#x2705; finished mate-terminal &amp;#x2705; finished &amp;#x2705; finished mate-utils &amp;#x2705; finished &amp;#x1f532; not started yet mozo &amp;#x2705; finished &amp;#x2705; finished pluma &amp;#x2705; finished &amp;#x1f532; not started yet </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/contributing/software-development/</link>
+    <description>Recent content on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/contributing/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://wiki.mate-desktop.org/contributing/software-development/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/software-development/getting-started/</guid>
+      <description>We assume you to have basic coding knowledge. If you don&amp;rsquo;t, we recommend that you read the chapters Introduction, Beginning C and Intermediate C of the C Wikibook and make some exercises (or something equivalent).&#xA;The MATE Desktop is mostly written in C. Some projects are written in Python or C++.&#xA;You should already have a text editor like Pluma, Gedit or Kate and a terminal application like MATE Terminal installed.</description>
+    </item>
+    <item>
+      <title>First Contribution</title>
+      <link>https://wiki.mate-desktop.org/contributing/software-development/first-contribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/software-development/first-contribution/</guid>
+      <description>If you are looking to make your first contribution, follow the steps below.&#xA;Fork the repository Clone the repository Create a branch Make some changes and commit those changes Push changes to GitHub Submit your changes for review Fork the repository Fork the repository by clicking on the fork button on the top of the Github page of the MATE package. This will create a copy of this repository in your account.</description>
+    </item>
+    <item>
+      <title>Building and Installing</title>
+      <link>https://wiki.mate-desktop.org/contributing/software-development/building-and-installing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/software-development/building-and-installing/</guid>
+      <description>To run the newest version of a MATE project, often it is not enough to build it from source (i.e. it can not be executed with ./my-program). To work properly it need to be installed, because the installation process ensures that all the needed files are copied to the right places.&#xA;Building Installing Uninstall Building First make sure you have all dependencies of the package installed:&#xA;Debian/Ubuntu/Linux Mint $ sudo apt build-dep &amp;lt;package-name&amp;gt; Fedora $ sudo dnf builddep &amp;lt;package-name&amp;gt; All MATE applications are built in the same way:</description>
+    </item>
+    <item>
+      <title>C Programming/GObject</title>
+      <link>https://wiki.mate-desktop.org/contributing/software-development/c-gobject-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/software-development/c-gobject-programming/</guid>
+      <description>Although written in C, most MATE applications are heavily based on Object Oriented Programming principles.&#xA;Since the C Programming-Language was not created with Object Oriented Programming in mind, it has no explicit support for classes, inheritance, polymorphism and other OO Concepts. Neither does it have its own Virtual Table, which is found in object-oriented languages such C++, Java and C#. Therefore, it might not be as easy to implement an object-oriented programming paradigm using only C&amp;rsquo;s language features and standard library.</description>
+    </item>
+    <item>
+      <title>Debugging with Eclipse</title>
+      <link>https://wiki.mate-desktop.org/contributing/software-development/debugging-with-eclipse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/software-development/debugging-with-eclipse/</guid>
+      <description>This page details the generic process for debugging the MATE desktop environment with Eclipse IDE.&#xA;Setting up the development environment Enabling the debug of a MATE component Debugging a MATE component To debug an application that is running To debug an application by launching it Setting up the development environment The installation of the development environment can be done anywhere, on this page we will install it on user home folder.</description>
+    </item>
+  </channel>
+</rss>

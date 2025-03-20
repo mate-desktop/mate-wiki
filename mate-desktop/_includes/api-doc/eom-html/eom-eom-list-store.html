@@ -1,0 +1,661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EomListStore: Eye of MATE Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="Eye of MATE Reference Manual">
+<link rel="up" href="ch01.html" title="User Interface">
+<link rel="prev" href="eom-eom-properties-dialog.html" title="EomPropertiesDialog">
+<link rel="next" href="EomFileChooser.html" title="EomFileChooser">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#eom-eom-list-store.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#eom-eom-list-store.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#eom-eom-list-store.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="eom-eom-properties-dialog.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="EomFileChooser.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="eom-eom-list-store"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="eom-eom-list-store.top_of_page"></a>EomListStore</span></h2>
+<p>EomListStore</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="eom-eom-list-store.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkListStore.html#GtkListStore-struct"><span class="returnvalue">GtkListStore</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-new" title="eom_list_store_new ()">eom_list_store_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gtk3/GtkListStore.html#GtkListStore-struct"><span class="returnvalue">GtkListStore</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-new-from-glist" title="eom_list_store_new_from_glist ()">eom_list_store_new_from_glist</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-append-image" title="eom_list_store_append_image ()">eom_list_store_append_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-add-files" title="eom_list_store_add_files ()">eom_list_store_add_files</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-remove-image" title="eom_list_store_remove_image ()">eom_list_store_remove_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-get-pos-by-image" title="eom_list_store_get_pos_by_image ()">eom_list_store_get_pos_by_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="eom-eom-image.html#EomImage"><span class="returnvalue">EomImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-get-image-by-pos" title="eom_list_store_get_image_by_pos ()">eom_list_store_get_image_by_pos</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-get-pos-by-iter" title="eom_list_store_get_pos_by_iter ()">eom_list_store_get_pos_by_iter</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-length" title="eom_list_store_length ()">eom_list_store_length</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-get-initial-pos" title="eom_list_store_get_initial_pos ()">eom_list_store_get_initial_pos</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-thumbnail-set" title="eom_list_store_thumbnail_set ()">eom_list_store_thumbnail_set</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-thumbnail-unset" title="eom_list_store_thumbnail_unset ()">eom_list_store_thumbnail_unset</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="eom-eom-list-store.html#eom-list-store-thumbnail-refresh" title="eom_list_store_thumbnail_refresh ()">eom_list_store_thumbnail_refresh</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="EomListStore"></a><div class="refsect1">
+<a name="eom-eom-list-store.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="eom-eom-list-store.html#EOM-LIST-STORE-THUMB-SIZE:CAPS" title="EOM_LIST_STORE_THUMB_SIZE">EOM_LIST_STORE_THUMB_SIZE</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="eom-eom-list-store.html#EomListStoreColumn" title="enum EomListStoreColumn">EomListStoreColumn</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="eom-eom-list-store.html#EomListStore-struct" title="struct EomListStore">EomListStore</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-list-store.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="../gobject/gobject-The-Base-Object-Type.html#GObject-struct">GObject</a>
+    <span class="lineart">╰──</span> <a href="../gtk3/GtkListStore.html#GtkListStore-struct">GtkListStore</a>
+        <span class="lineart">╰──</span> EomListStore
+</pre>
+</div>
+<div class="refsect1">
+<a name="eom-eom-list-store.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+EomListStore implements
+ <a href="../gtk3/GtkTreeModel.html#GtkTreeModel-struct">GtkTreeModel</a>,  <a href="../gtk3/gtk3-GtkTreeView-drag-and-drop.html#GtkTreeDragSource-struct">GtkTreeDragSource</a>,  <a href="../gtk3/gtk3-GtkTreeView-drag-and-drop.html#GtkTreeDragDest-struct">GtkTreeDragDest</a>,  <a href="../gtk3/GtkTreeSortable.html#GtkTreeSortable-struct">GtkTreeSortable</a> and  <a href="../gtk3/GtkBuildable.html#GtkBuildable-struct">GtkBuildable</a>.</p>
+</div>
+<div class="refsect1">
+<a name="eom-eom-list-store.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="eom-eom-list-store.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="eom-list-store-new"></a><h3>eom_list_store_new ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkListStore.html#GtkListStore-struct"><span class="returnvalue">GtkListStore</span></a> *
+eom_list_store_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Creates a new and empty <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p>
+<div class="refsect3">
+<a name="eom-list-store-new.returns"></a><h4>Returns</h4>
+<p> a newly created <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-new-from-glist"></a><h3>eom_list_store_new_from_glist ()</h3>
+<pre class="programlisting"><a href="../gtk3/GtkListStore.html#GtkListStore-struct"><span class="returnvalue">GtkListStore</span></a> *
+eom_list_store_new_from_glist (<em class="parameter"><code><a href="../glib/glib-Doubly-Linked-Lists.html#GList"><span class="type">GList</span></a> *list</code></em>);</pre>
+<p>Creates a new <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> from a list of <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>'s.
+The given list must be <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated.</p>
+<div class="refsect3">
+<a name="eom-list-store-new-from-glist.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>list</p></td>
+<td class="parameter_description"><p>a <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>'s. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> EomImage]</span></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-list-store-new-from-glist.returns"></a><h4>Returns</h4>
+<p> a new <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-append-image"></a><h3>eom_list_store_append_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_list_store_append_image (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                             <em class="parameter"><code><a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> *image</code></em>);</pre>
+<p>Adds an <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> to <em class="parameter"><code>store</code></em>
+. The thumbnail of the image is not
+loaded and will only be loaded if the thumbnail is made visible
+or <code class="function">eom_list_store_set_thumbnail()</code> is called.</p>
+<div class="refsect3">
+<a name="eom-list-store-append-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-add-files"></a><h3>eom_list_store_add_files ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_list_store_add_files (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                          <em class="parameter"><code><a href="../glib/glib-Doubly-Linked-Lists.html#GList"><span class="type">GList</span></a> *file_list</code></em>);</pre>
+<p>Adds a list of <a href="../gio/GFile.html#GFile-struct"><span class="type">GFile</span></a>'s to <em class="parameter"><code>store</code></em>
+. The given list
+must be <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated.</p>
+<p>If any of the <a href="../gio/GFile.html#GFile-struct"><span class="type">GFile</span></a>'s in <em class="parameter"><code>file_list</code></em>
+ is a directory, all the images
+in that directory will be added to <em class="parameter"><code>store</code></em>
+. If the list of files contains
+only one file and this is a regular file, then all the images in the same
+directory will be added as well to <em class="parameter"><code>store</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-list-store-add-files.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>file_list</p></td>
+<td class="parameter_description"><p>A <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of <a href="../gio/GFile.html#GFile-struct"><span class="type">GFile</span></a>'s. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> GFile]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-remove-image"></a><h3>eom_list_store_remove_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_list_store_remove_image (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                             <em class="parameter"><code><a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> *image</code></em>);</pre>
+<p>Removes <em class="parameter"><code>image</code></em>
+ from <em class="parameter"><code>store</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-list-store-remove-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-get-pos-by-image"></a><h3>eom_list_store_get_pos_by_image ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+eom_list_store_get_pos_by_image (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                                 <em class="parameter"><code><a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> *image</code></em>);</pre>
+<p>Gets the position where <em class="parameter"><code>image</code></em>
+ is stored in <em class="parameter"><code>store</code></em>
+. If <em class="parameter"><code>image</code></em>
+
+is not stored in <em class="parameter"><code>store</code></em>
+, -1 is returned.</p>
+<div class="refsect3">
+<a name="eom-list-store-get-pos-by-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-list-store-get-pos-by-image.returns"></a><h4>Returns</h4>
+<p> the position of <em class="parameter"><code>image</code></em>
+in <em class="parameter"><code>store</code></em>
+or -1 if not found.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-get-image-by-pos"></a><h3>eom_list_store_get_image_by_pos ()</h3>
+<pre class="programlisting"><a class="link" href="eom-eom-image.html#EomImage"><span class="returnvalue">EomImage</span></a> *
+eom_list_store_get_image_by_pos (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                                 <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gint"><span class="type">gint</span></a> pos</code></em>);</pre>
+<p>Gets the <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> in the position <em class="parameter"><code>pos</code></em>
+ of <em class="parameter"><code>store</code></em>
+. If there is
+no image at position <em class="parameter"><code>pos</code></em>
+, <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> is returned.</p>
+<div class="refsect3">
+<a name="eom-list-store-get-image-by-pos.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>pos</p></td>
+<td class="parameter_description"><p>the position of the required <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-list-store-get-image-by-pos.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> in position <em class="parameter"><code>pos</code></em>
+or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-get-pos-by-iter"></a><h3>eom_list_store_get_pos_by_iter ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+eom_list_store_get_pos_by_iter (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                                <em class="parameter"><code><a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> *iter</code></em>);</pre>
+<p>Gets the position of the image pointed by <em class="parameter"><code>iter</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-list-store-get-pos-by-iter.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>iter</p></td>
+<td class="parameter_description"><p>A <a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> pointing to an image in <em class="parameter"><code>store</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-list-store-get-pos-by-iter.returns"></a><h4>Returns</h4>
+<p> The position of the image pointed by <em class="parameter"><code>iter</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-length"></a><h3>eom_list_store_length ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+eom_list_store_length (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>);</pre>
+<p>Returns the number of images in the store.</p>
+<div class="refsect3">
+<a name="eom-list-store-length.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-list-store-length.returns"></a><h4>Returns</h4>
+<p> The number of images in <em class="parameter"><code>store</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-get-initial-pos"></a><h3>eom_list_store_get_initial_pos ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+eom_list_store_get_initial_pos (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>);</pre>
+<p>Gets the position of the <a class="link" href="eom-eom-image.html#EomImage"><span class="type">EomImage</span></a> that should be loaded first.
+If not set, it returns -1.</p>
+<div class="refsect3">
+<a name="eom-list-store-get-initial-pos.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="eom-list-store-get-initial-pos.returns"></a><h4>Returns</h4>
+<p> the position of the image to be loaded first or -1.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-thumbnail-set"></a><h3>eom_list_store_thumbnail_set ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_list_store_thumbnail_set (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                              <em class="parameter"><code><a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> *iter</code></em>);</pre>
+<p>Sets the thumbnail for the image pointed by <em class="parameter"><code>iter</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-list-store-thumbnail-set.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>iter</p></td>
+<td class="parameter_description"><p>A <a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> pointing to an image in <em class="parameter"><code>store</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-thumbnail-unset"></a><h3>eom_list_store_thumbnail_unset ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_list_store_thumbnail_unset (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                                <em class="parameter"><code><a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> *iter</code></em>);</pre>
+<p>Unsets the thumbnail for the image pointed by <em class="parameter"><code>iter</code></em>
+, changing
+it to a "busy" icon.</p>
+<div class="refsect3">
+<a name="eom-list-store-thumbnail-unset.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>iter</p></td>
+<td class="parameter_description"><p>A <a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> pointing to an image in <em class="parameter"><code>store</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="eom-list-store-thumbnail-refresh"></a><h3>eom_list_store_thumbnail_refresh ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+eom_list_store_thumbnail_refresh (<em class="parameter"><code><a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a> *store</code></em>,
+                                  <em class="parameter"><code><a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> *iter</code></em>);</pre>
+<p>Refreshes the thumbnail for the image pointed by <em class="parameter"><code>iter</code></em>
+.</p>
+<div class="refsect3">
+<a name="eom-list-store-thumbnail-refresh.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>store</p></td>
+<td class="parameter_description"><p>An <a class="link" href="eom-eom-list-store.html#EomListStore"><span class="type">EomListStore</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>iter</p></td>
+<td class="parameter_description"><p>A <a href="../gtk3/GtkTreeModel.html#GtkTreeIter-struct"><span class="type">GtkTreeIter</span></a> pointing to an image in <em class="parameter"><code>store</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="eom-eom-list-store.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="EOM-LIST-STORE-THUMB-SIZE:CAPS"></a><h3>EOM_LIST_STORE_THUMB_SIZE</h3>
+<pre class="programlisting">#define EOM_LIST_STORE_THUMB_SIZE 90
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomListStoreColumn"></a><h3>enum EomListStoreColumn</h3>
+<div class="refsect3">
+<a name="EomListStoreColumn.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-LIST-STORE-THUMBNAIL:CAPS"></a>EOM_LIST_STORE_THUMBNAIL</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-LIST-STORE-THUMB-SET:CAPS"></a>EOM_LIST_STORE_THUMB_SET</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-LIST-STORE-EOM-IMAGE:CAPS"></a>EOM_LIST_STORE_EOM_IMAGE</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-LIST-STORE-EOM-JOB:CAPS"></a>EOM_LIST_STORE_EOM_JOB</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EOM-LIST-STORE-NUM-COLUMNS:CAPS"></a>EOM_LIST_STORE_NUM_COLUMNS</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EomListStore-struct"></a><h3>struct EomListStore</h3>
+<pre class="programlisting">struct EomListStore;</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/contributing/translation/</link>
+    <description>Recent content on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/contributing/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://wiki.mate-desktop.org/contributing/translation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/translation/getting-started/</guid>
+      <description>Initial Setup We use Transifex for translating the MATE Desktop into several languages.&#xA;Transifex is a proprietary, web-based translation platform; that is to say, it is a globalization management system (GMS). It targets technical projects with frequently updated content, such as software, documentation, and websites, and encourages the automation of the localization workflow by integrating with the tools used by developers. source How to help translating:&#xA;Register for a free account at https://www.</description>
+    </item>
+  </channel>
+</rss>
