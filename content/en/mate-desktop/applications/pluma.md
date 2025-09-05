@@ -14,7 +14,7 @@ weight: -20
 
 {{< columns >}}
 
-Pluma is the official text editor of the MATE desktop environment. While aiming at simplicity and ease of use, Pluma is a powerful general purpose text  editor.  It  can  be used to create and edit all sorts of text files.
+Pluma, Spanish for 'quill', is the official text editor of the MATE desktop environment. While aiming at simplicity and ease of use, Pluma is a powerful general purpose text  editor.  It  can  be used to create and edit all sorts of text files. 
 
 Pluma  features  a  flexible plugin system which can be used to dynamically add new advanced features to Pluma itself.
 
