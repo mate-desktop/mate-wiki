@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/contributing/translation/</link>
+    <description>Recent content on MATEwiki</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/contributing/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://wiki.mate-desktop.org/contributing/translation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/translation/getting-started/</guid>
+      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h3 id=&#34;initial-setup&#34;&#xA;    &gt;&#xA;        Initial Setup&#xA;    &lt;/h3&gt;&#xA;    &lt;a data-clipboard-text=&#34;https://wiki.mate-desktop.org/contributing/translation/getting-started/#initial-setup&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Initial Setup&#34; aria-label=&#34;Anchor to: Initial Setup&#34; href=&#34;#initial-setup&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;We use &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://www.transifex.com&#34;&#xA;&gt;Transifex&lt;/a&gt; for translating the MATE Desktop into several languages.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;blockquote class=&#34;gdoc-hint note&#34;&gt;&#xA;  &lt;div class=&#34;gdoc-hint__title flex gap-8 align-center&#34;&gt;&lt;i class=&#34;fa note&#34;&gt;&lt;/i&gt;&#xA;      &lt;span&gt;Note&lt;/span&gt;&lt;/div&gt;&#xA;  &lt;div class=&#34;gdoc-hint__text&#34;&gt;Transifex is a proprietary, web-based translation platform; that is to say, it is a globalization management system (GMS). It targets technical projects with frequently updated content, such as software, documentation, and websites, and encourages the automation of the localization workflow by integrating with the tools used by developers. &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://en.wikipedia.org/wiki/Transifex&#34;&#xA;&gt;source&lt;/a&gt;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;How to help translating:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
