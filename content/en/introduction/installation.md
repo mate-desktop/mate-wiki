@@ -77,6 +77,11 @@ If you have authorization problems (e.g. when mounting disks), try adding `dbus-
 Install the MATE Desktop Environment with
 
 - `sudo dnf groupinstall "Mate Desktop"`
+
+Alternatively, if it doesn't work:
+
+- `sudo dnf group install mate-desktop`
+
 {{< /tab >}}
 
 {{< tab "Arch/Manjaro" >}}
