@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATEwiki</title>
+    <link>https://wiki.mate-desktop.org/contributing/translation/</link>
+    <description>Recent content on MATEwiki</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://wiki.mate-desktop.org/contributing/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://wiki.mate-desktop.org/contributing/translation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.mate-desktop.org/contributing/translation/getting-started/</guid>
+      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h3 id=&#34;initial-setup&#34;&#xA;    &gt;&#xA;        Initial Setup&#xA;    &lt;/h3&gt;&#xA;    &lt;a data-clipboard-text=&#34;https://wiki.mate-desktop.org/contributing/translation/getting-started/#initial-setup&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Initial Setup&#34; aria-label=&#34;Anchor to: Initial Setup&#34; href=&#34;#initial-setup&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;We use a &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://translate.fedoraproject.org/&#34;&#xA;&gt;weblate instance&lt;/a&gt; for translating the MATE Desktop into several languages.&lt;/p&gt;&#xA;&lt;p&gt;How to help translating:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Register for a free account at &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://accounts.fedoraproject.org/&#34;&#xA;&gt;https://accounts.fedoraproject.org/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Accept the Fedora Code of Conduct:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Login&lt;/li&gt;&#xA;&lt;li&gt;Go to user-settings&lt;/li&gt;&#xA;&lt;li&gt;Go to tab agreements&lt;/li&gt;&#xA;&lt;li&gt;Read and accept these&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Now you can login at weblate &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://translate.fedoraproject.org/accounts/login/&#34;&#xA;&gt;https://translate.fedoraproject.org/accounts/login/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open our project overview page &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://translate.fedoraproject.org/projects/mate-desktop&#34;&#xA;&gt;https://translate.fedoraproject.org/projects/mate-desktop&lt;/a&gt;, or&lt;/li&gt;&#xA;&lt;li&gt;Search for the project you’d like to edit. All of our projects starting with &lt;code&gt;mate-desktop/&lt;/code&gt; in their names.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>
