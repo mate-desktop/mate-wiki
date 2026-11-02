@@ -13,8 +13,8 @@ How to help translating:
 
 2. Accept the Fedora Code of Conduct:
     1. Login
-    2. Go in the user-settings
-    3. Go in the tab agreements
+    2. Go to user-settings
+    3. Go to tab agreements
     4. Read and accept these
 
 3. Now you can login at weblate <https://translate.fedoraproject.org/accounts/login/>
